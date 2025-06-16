@@ -1,0 +1,107 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Northern Manitoba",
+        "description": "Racism is killing women!<br>Racism plays a big part in the issue of MMIWG."
+      },
+      "geometry": {
+        "coordinates": [
+          -97.84611035748239,
+          55.86808785671508
+        ],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Interlake",
+        "description": "Systemic racism is a barrier that occurs in most organizations, especially in government institutions."
+      },
+      "geometry": {
+        "coordinates": [
+          -97.66702170558935,
+          51.159062948104946
+        ],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winnipeg",
+        "description": "Systemic racism. Police often do not address or respond to calls of MMIWG."
+      },
+      "geometry": {
+        "coordinates": [
+          -97.14907283943498,
+          49.83510029508622
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winnipeg",
+        "description": "I have heard police talk about certain groups, and say things like those people deserve it and that they will be wasting their resources on this group of people."
+      },
+      "geometry": {
+        "coordinates": [
+          -97.25087301874987,
+          49.90242334363762
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winnipeg",
+        "description": "It is important that the systemic racism that exists in government is acknowledged and there needs to be a movement for that to change within the system."
+      },
+      "geometry": {
+        "coordinates": [
+          -97.08170921824708,
+          49.916133211465876
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Western",
+        "description": "One of the problems with shelters is that their intake questions can be rooted in racism and often make the women looking for help feel judged and/or not safe."
+      },
+      "geometry": {
+        "coordinates": [
+          -100.81833586610979,
+          50.059156584814446
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brandon",
+        "description": "Barriers include racism that is apparent in organizations in Brandon."
+      },
+      "geometry": {
+        "coordinates": [
+          -99.97040385176247,
+          49.8617810295205
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

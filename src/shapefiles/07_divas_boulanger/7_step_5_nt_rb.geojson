@@ -1,0 +1,27 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name": "Renee Bloomfield",
+                "description": "<strong>Renee Bloomfield</strong> was a 27-year-old transgender woman known to work near Higgins Avenue. She was struck and killed by a car on Highway 8 north of Grassmere Boulevard in 2002. Her death was listed as accidental."
+            },
+            "geometry":{
+                "coordinates":[-97.10012122451904,49.99518082967951],
+                "type":"Point"
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Noreen Taylor",
+                "description": "<strong>Noreen Taylor</strong> was a 32-year-old woman. She died in the hospital after being found unconscious on Ham Street in the Transcona area of Winnipeg in 2001. Autopsy results showed she died as a result of falling out of or being pushed out of a moving vehicle."
+            },
+            "geometry":{
+                "coordinates":[-97.04729744725134,49.92605785262043],
+                "type":"Point"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Winnipeg"
+            },
+            "geometry":{
+                "coordinates":[-97.14735886732254,49.87844913971455],
+                "type":"Point"
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Sagkeeng First Nation"
+            },
+            "geometry":{
+                "coordinates":[-96.27475811496562,50.57818880747634],
+                "type":"Point"
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Bloodvein First Nation"
+            },
+            "geometry":{
+                "coordinates":[-96.6968980457386,51.78491918851139],
+                "type":"Point"
+            }
+        }
+    ]
+}

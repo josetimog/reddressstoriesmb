@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Pas"
+      },
+      "geometry": {
+        "coordinates": [
+          -101.244884, 
+          53.820799
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

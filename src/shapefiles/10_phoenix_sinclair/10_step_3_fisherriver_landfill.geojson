@@ -1,0 +1,15 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name": "Fisher River Cree Nation Landfill"
+            },
+            "geometry":{
+                "coordinates":[-97.33447685116562, 51.42605127121874],
+                "type":"Point"
+            }
+        }
+    ]
+}

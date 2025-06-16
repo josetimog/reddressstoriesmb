@@ -1,0 +1,243 @@
+/* Main Layout */
+.map-layout {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  /* height: calc(100vh - 56px); */
+  height: calc(100vh - 64px);
+  /* width: 100vw; */
+  overflow: hidden;
+}
+
+/* Map Container */
+#map-container {
+  flex: 1;
+  min-height: 0;
+  /* height: 100%;
+  width: 100%; */
+  background-color: lightgrey; /* Temporary debug color */
+}
+
+/* Sidebar Victim List (Desktop) */
+.victim-list-container {
+  width: 350px;
+  max-width: 100%;
+  overflow-y: auto;
+  border-right: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 1;
+}
+
+/* Map + Filter Button Wrapper */
+.map-container-with-button {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Filter Button */
+.filter-button-container {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 3;
+}
+
+/* Alert on Map */
+.map-alert {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1001;
+  font-family: "Lato", sans-serif;
+}
+
+/* Filter Modal */
+.filter-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.filter-content {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+/* Range Inputs */
+.ageInput,
+.yearInput {
+  display: flex;
+}
+
+.ageInput input,
+.yearInput input {
+  border: 1px solid #dfdfdf;
+}
+
+/* Toggle Button for Mobile */
+.mobile-toggle-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  pointer-events: auto;
+}
+
+/* Victim List Overlay for Mobile */
+.mobile-victim-list-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 5;
+  overflow-y: auto;
+}
+
+.mobile-victim-list-overlay::-webkit-scrollbar {
+  display: none;
+}
+
+/* Popup Styling */
+.mapboxgl-popup.custom-popup {
+  font-family: "Lato", sans-serif;
+  background-color: none;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); */
+  max-width: none !important;
+  cursor: pointer;
+}
+
+.mapboxgl-popup.custom-popup .mapboxgl-popup-content {
+  background-color: white;
+  border-radius: 10px;
+  padding: 0;
+  display: flex;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.mapboxgl-popup.custom-popup .mapboxgl-popup-close-button {
+  color: #444;
+  font-size: 18px;
+  top: 6px;
+  right: 10px;
+}
+
+.mapboxgl-popup.custom-popup img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.popup-details {
+  padding-top: 0.33rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  max-width: 200px;
+}
+
+.popup-details p {
+  padding: 0;
+  margin: 0;
+  font-size: 0.8rem;
+  color: #727a71;
+}
+
+.popup-name {
+  color: #000 !important;
+  font-weight: bold;
+  font-size: 1rem !important;
+}
+
+.mapboxgl-popup-tip {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+  margin: 0 auto;
+  display: block !important;
+  visibility: visible !important;
+}
+
+@media (max-width: 768px) {
+  .mapboxgl-popup-tip {
+    display: none !important;
+  }
+}
+
+/* List Items */
+.listing-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.listing-details-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.listing-details p {
+  margin: 0;
+  color: #727a71;
+}
+
+.victim-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+  flex-shrink: 0;
+}
+
+.listing-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .mapboxgl-popup.custom-popup {
+    top: auto !important;
+    bottom: 30px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    right: auto !important;
+    z-index: 1001;
+  }
+
+  .mapboxgl-popup.custom-popup .mapboxgl-popup-content {
+    flex-direction: row;
+    width: 90vw;
+    max-width: 500px;
+  }
+}

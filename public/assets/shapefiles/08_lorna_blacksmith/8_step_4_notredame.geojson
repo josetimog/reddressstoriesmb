@@ -1,0 +1,15 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name": "Notre Dame"
+            },
+            "geometry":{
+                "coordinates":[-97.16337164047277,49.90277988046781],
+                "type":"Point"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name": "Portage la Prairie"
+            },
+            "geometry":{
+                "coordinates":[-98.29370712706641,49.973192751880845],
+                "type":"Point"
+            }
+        }
+    ]
+}

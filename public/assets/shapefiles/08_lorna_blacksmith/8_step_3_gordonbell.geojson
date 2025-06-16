@@ -1,0 +1,15 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name": "Gordon Bell Collegiate"
+            },
+            "geometry":{
+                "coordinates":[-97.16207083120011,49.88638664359836],
+                "type":"Point"
+            }
+        }
+    ]
+}

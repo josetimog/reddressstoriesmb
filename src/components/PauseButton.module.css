@@ -1,0 +1,49 @@
+.pauseButton {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 1000;
+  border-radius: 60px;
+  padding: 0;
+  background-color: #a8281f;
+  border: none;
+  overflow: visible;
+  cursor: pointer;
+}
+
+/* Icon styling */
+.pauseButton img {
+  width: 60px;
+  border-radius: 60px;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.pauseButton:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+/* Caption styling (tooltip) */
+.pauseButton .caption {
+  position: absolute;
+  bottom: 100%; /* Position directly above the button */
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px); /* Slight lift */
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 1;
+}
+
+/* Show the caption on hover */
+.pauseButton:hover .caption {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-12px);
+}
