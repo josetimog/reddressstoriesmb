@@ -1,0 +1,25 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name": "Powerview-Pine Falls"
+            },
+            "geometry":{
+                "coordinates":[-96.21684976290604,50.56749203086727],
+                "type":"Point"
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name": "Winnipeg"
+            },
+            "geometry":{
+                "coordinates":[-97.04739965903318,49.9276720336529],
+                "type":"Point"
+            }
+        }
+    ]
+}

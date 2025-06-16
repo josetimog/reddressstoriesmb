@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "3rd Street"
+      },
+      "geometry": {
+        "coordinates": [
+          -101.24908131023437,
+          53.82484615085207
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

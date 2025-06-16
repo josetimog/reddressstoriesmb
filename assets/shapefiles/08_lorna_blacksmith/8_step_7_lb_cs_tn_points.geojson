@@ -1,0 +1,38 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+               {
+            "type":"Feature",
+            "properties":{
+                "name":"Lorna Blacksmith",
+                "description": "<strong>Lorna</strong> was found on Simcoe Street. This was revealed to the police after her murderer was arrested for an unrelated sexual assault on another woman."
+            },
+            "geometry":{
+                "coordinates":[-97.16597064995518,49.90019615606162],
+                "type":"Point"
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Carolyn Sinclair",
+                "description":"<strong>Carolyn Sinclair</strong> was a sister, a soon-to-be-mother, a daughter, a cousin, a niece, and a friend. She was five months pregnant and battling addiction when she went missing in December 2011. Her body was found in a dumpster in a Notre Dame Avenue back lane after the man who would be charged with her murder reported the location to the police."
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-97.16337994200059,49.90306484864147]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Tanya Nepinak",
+                "description": "<strong>Tanya Nepinak</strong> was a mother of two, a wife, a daughter, a sister, a cousin, a niece, and a friend. She was last seen on September 13, 2011. Her body has never been recovered, although it is suspected that it may be at the Brady Road Landfill. A large-scale search in 2012 was unsuccessful."
+            },
+            "geometry":{
+                "coordinates":[-97.15868828580167,49.892996861359364],
+                "type":"Point"
+            }
+        }
+    ]
+}
