@@ -1,0 +1,25 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Powerview-Pine Falls"
+            },
+            "geometry":{
+                "coordinates":[-96.21854816462216,50.56677573563027],
+                "type":"Point"
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Sagkeeng First Nation"
+            },
+            "geometry":{
+                "coordinates":[-96.27475811496562,50.57818880747634],
+                "type":"Point"
+            }
+        }
+    ]
+}

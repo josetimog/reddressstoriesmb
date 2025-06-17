@@ -1,0 +1,25 @@
+{"type":"FeatureCollection",
+"features":[
+    {
+        "type":"Feature",
+        "properties":{
+            "name":"Police Shooting of J.J. Harper, Winnipeg",
+            "description":"On March 9, 1988, J.J. Harper (Executive Director, Island Lake Tribal Council), died following an encounter with a City of Winnipeg police officer. The following day the police department exonerated the officer involved. Others, particularly those in the province's Indigenous community, believed that there were many questions which had been left unanswered by the police department's internal investigation. Numerous individuals requested a judicial inquiry."
+        },
+        "geometry":{
+            "coordinates":[-97.16398274800943,49.890494086805376],
+            "type":"Point"
+        }
+    },
+    {
+        "type":"Feature",
+        "properties":{
+            "name":"Murder of Helen Betty Osborne, The Pas",
+            "description":"Following the November 1987 trial of the men for the murder of Helen Betty Osborne in The Pas, and allegations of misconduct in the investigation and trial process, the chief of The Pas Indian Band and the mayor of The Pas jointly called for a judicial inquiry that would question any allegations related to the murder, including why it had taken 16 years to bring the case to trial."
+        },
+        "geometry":{
+            "coordinates":[-101.2437163467548,53.82213709597562],
+            "type":"Point"
+        }
+    }]
+}

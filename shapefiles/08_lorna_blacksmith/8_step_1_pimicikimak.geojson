@@ -1,0 +1,15 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name": "Pimicikamak (Cross Lake)"
+            },
+            "geometry":{
+                "coordinates":[-97.7641745502598,54.65648726993142],
+                "type":"Point"
+            }
+        }
+    ]
+}

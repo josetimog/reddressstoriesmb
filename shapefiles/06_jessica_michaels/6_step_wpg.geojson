@@ -1,0 +1,15 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name": "Winnipeg"
+            },
+            "geometry":{
+                "coordinates":[-97.14109313216237,49.89042003052916],
+                "type":"Point"
+            }
+        }
+    ]
+}
