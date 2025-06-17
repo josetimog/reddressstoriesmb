@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guy Hill Residential School, Clearwater Lake"
+      },
+      "geometry": {
+        "coordinates": [
+          -101.03662326087897,
+          53.98511198884964
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

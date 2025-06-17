@@ -5,7 +5,7 @@ const Pause = ({ onOpenSlideShow }) => {
     <>
       <button onClick={onOpenSlideShow} className={styles.pauseButton}>
         <img
-          src="/assets/icons/smudging_no_bg.png"
+          src="/reddressstoriesmb/assets/icons/smudging_no_bg.png"
           alt="I Need a Minute Button"
         />
         <span className={styles.caption}>I Need a Minute</span>

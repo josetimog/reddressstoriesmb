@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+"crs": {
+  "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norway House"
+        },
+      "geometry": {
+        "coordinates": [
+          -97.83521702824335,
+          53.966715141262256
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

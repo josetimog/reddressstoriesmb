@@ -1,0 +1,15 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name": "Sutherland-Main Intersection"
+            },
+            "geometry":{
+                "coordinates":[-97.13394691534559, 49.90676392038838 ],
+                "type":"Point"
+            }
+        }
+    ]
+}

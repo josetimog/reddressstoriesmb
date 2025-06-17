@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+	      "name": "Margaret Barbour Collegiate, The Pas"
+      },
+      "geometry": {
+        "coordinates": [
+          -101.24143643340821,
+          53.82484338795254
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

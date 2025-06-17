@@ -10,52 +10,52 @@ import {
 
 const cardData = [
   {
-    image: "/assets/partners/giganawe.jpg",
+    image: "/reddressstoriesmb/assets/partners/giganawe.jpg",
     title: "Giganawenimaanaanig",
     link: "https://giganawe.ca",
   },
   {
-    image: "/assets/partners/gov_mb.jpg",
+    image: "/reddressstoriesmb/assets/partners/gov_mb.jpg",
     title: "Government of Manitoba",
     link: "https://www.gov.mb.ca/index.html",
   },
   {
-    image: "/assets/partners/winnipeg.jpg",
+    image: "/reddressstoriesmb/assets/partners/winnipeg.jpg",
     title: "City of Winnipeg",
     link: "https://www.winnipeg.ca/",
   },
   {
-    image: "/assets/partners/sco.jpg",
+    image: "/reddressstoriesmb/assets/partners/sco.jpg",
     title: "Southern Chiefs Organization",
     link: "https://scoinc.mb.ca/",
   },
   {
-    image: "/assets/partners/ka_ni.jpg",
+    image: "/reddressstoriesmb/assets/partners/ka_ni.jpg",
     title: "Ka Ni Kanichihk Inc.",
     link: "https://kanikanichihk.ca/",
   },
   {
-    image: "/assets/partners/mamawi.jpg",
+    image: "/reddressstoriesmb/assets/partners/mamawi.jpg",
     title: "Ma Mawi Wi Chi Itata Centre Inc.",
     link: "https://www.mamawi.com/",
   },
   {
-    image: "/assets/partners/mko.jpg",
+    image: "/reddressstoriesmb/assets/partners/mko.jpg",
     title: "Manitoba Keewatinowi Okimakanak",
     link: "https://mkonation.com/",
   },
   {
-    image: "/assets/partners/wahbung.jpg",
+    image: "/reddressstoriesmb/assets/partners/wahbung.jpg",
     title: "Wahbung Abinoonjiiag Inc.",
     link: "http://www.wahbung.org/",
   },
   {
-    image: "/assets/partners/2S_consultants.jpg",
+    image: "/reddressstoriesmb/assets/partners/2S_consultants.jpg",
     title: "2Spirit Consultants of Manitoba",
     link: "https://2spiritconsultants.ca/",
   },
   {
-    image: "/assets/partners/rrc.jpg",
+    image: "/reddressstoriesmb/assets/partners/rrc.jpg",
     title: "Red River College Polytechnic",
     link: "https://www.rrc.ca/",
   },

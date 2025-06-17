@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pump House"
+	},
+      "geometry": {
+        "coordinates": [
+          -101.08409267931427,
+          53.984216803908254
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

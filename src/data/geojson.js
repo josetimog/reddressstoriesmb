@@ -114,7 +114,7 @@
 //     //   filetype: "geojson",
 //     //   displayType: "symbol",
 //     //   layout: "timeline",
-//     //   data: "../src/timeline_markers.geojson",
+//     //   data: "/reddressstoriesmb/timeline_markers.geojson",
 //     //   cluster: true,
 //     // },
 //     // {
@@ -850,7 +850,7 @@ const geojson = {
     //   filetype: "geojson",
     //   displayType: "symbol",
     //   layout: "timeline",
-    //   data: "../src/timeline_markers.geojson",
+    //   data: "/reddressstoriesmb/timeline_markers.geojson",
     //   cluster: true,
     // },
     // {
@@ -1006,7 +1006,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/05_helen_betty/5_step_1_norway_house.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_1_norway_house.geojson",
       cluster: false,
     },
     {
@@ -1014,7 +1014,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/05_helen_betty/5_step_2_guy_hill_residential school.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_2_guy_hill_residential_school.geojson",
       cluster: false,
     },
     {
@@ -1022,7 +1022,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/05_helen_betty/5_step_3_margaret_barbour_collegiate.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_3_margaret_barbour_collegiate.geojson",
       cluster: false,
     },
     {
@@ -1030,7 +1030,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "fill",
       paint: "accessFill",
-      data: "../src/shapefiles/05_helen_betty/5_step_4_access_1971.json",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_4_access_1971.json",
       cluster: false,
     },
     {
@@ -1038,7 +1038,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "fill",
       paint: "accessFill",
-      data: "../src/shapefiles/05_helen_betty/5_step_5_access_2020.json",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_5_access_2020.json",
       cluster: false,
     },
 
@@ -1047,7 +1047,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "circle",
       paint: "firstNations",
-      data: "../src/shapefiles/05_helen_betty/5_Manitoba First Nations.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_Manitoba_First_Nations.geojson",
       cluster: false,
     },
     {
@@ -1055,7 +1055,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "circle",
       paint: "range",
-      data: "../src/shapefiles/05_helen_betty/5_step_6_3rd_street.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_6_3rd_street.geojson",
       cluster: false,
     },
     {
@@ -1063,7 +1063,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/05_helen_betty/5_step_6_3rd_street.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_6_3rd_street.geojson",
       cluster: false,
     },
     {
@@ -1071,7 +1071,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/05_helen_betty/5_step_6_3rd_street.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_6_3rd_street.geojson",
       cluster: false,
     },
     {
@@ -1080,7 +1080,7 @@ const geojson = {
       displayType: "line",
       paint: "path",
       layout: "ends",
-      data: "../src/shapefiles/05_helen_betty/5_step_7_drive_to_pump_house.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_7_drive_to_pump_house.geojson",
       cluster: false,
     },
     {
@@ -1088,7 +1088,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/05_helen_betty/5_step_8_pump_house.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_8_pump_house.geojson",
       cluster: false,
     },
     {
@@ -1096,7 +1096,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/05_helen_betty/5_step_8_pump_house.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_8_pump_house.geojson",
       cluster: false,
     },
     {
@@ -1104,7 +1104,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "comment",
-      data: "../src/shapefiles/05_helen_betty/5_step_9_after_effects_the_pas.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_9_after_effects_the_pas.geojson",
       cluster: false,
     },
     {
@@ -1112,7 +1112,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "comment",
-      data: "../src/shapefiles/05_helen_betty/5_step_10_after_effects.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_10_after_effects.geojson",
       cluster: false,
     },
     {
@@ -1120,7 +1120,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/05_helen_betty/5_step_11_aboriginal_justice_inquiry.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_11_aboriginal_justice_inquiry.geojson",
       cluster: false,
     },
     {
@@ -1128,7 +1128,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/05_helen_betty/5_step_12_helen_betty_osborne_buildings.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_step_12_helen_betty_osborne_buildings.geojson",
       cluster: false,
     },
     {
@@ -1136,7 +1136,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/05_helen_betty/5_The Pas.geojson",
+      data: "/reddressstoriesmb/shapefiles/05_helen_betty/5_The Pas.geojson",
       cluster: false,
     },
     // --- Jessica Michaels --- //
@@ -1145,7 +1145,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/06_jessica_michaels/6_step_1_chesterfield.geojson",
+      data: "/reddressstoriesmb/shapefiles/06_jessica_michaels/6_step_1_chesterfield.geojson",
       cluster: false,
     },
     {
@@ -1153,7 +1153,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/06_jessica_michaels/6_step_wpg.geojson",
+      data: "/reddressstoriesmb/shapefiles/06_jessica_michaels/6_step_wpg.geojson",
       cluster: false,
     },
     {
@@ -1162,7 +1162,7 @@ const geojson = {
       displayType: "line",
       paint: "path",
       layout: "ends",
-      data: "../src/shapefiles/06_jessica_michaels/6_step_5_trip.geojson",
+      data: "/reddressstoriesmb/shapefiles/06_jessica_michaels/6_step_5_trip.geojson",
       cluster: false,
     },
 
@@ -1172,7 +1172,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/07_divas_boulanger/7_step_1_berens.geojson",
+      data: "/reddressstoriesmb/shapefiles/07_divas_boulanger/7_step_1_berens.geojson",
       cluster: false,
     },
     {
@@ -1180,7 +1180,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/07_divas_boulanger/7_step_2_sutherlandmain_point.geojson",
+      data: "/reddressstoriesmb/shapefiles/07_divas_boulanger/7_step_2_sutherlandmain_point.geojson",
       cluster: false,
     },
     {
@@ -1188,7 +1188,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "circle",
       paint: "range",
-      data: "../src/shapefiles/07_divas_boulanger/7_step_2_sutherlandmain_point.geojson",
+      data: "/reddressstoriesmb/shapefiles/07_divas_boulanger/7_step_2_sutherlandmain_point.geojson",
       cluster: false,
     },
     {
@@ -1196,7 +1196,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/07_divas_boulanger/7_step_3_plp.geojson",
+      data: "/reddressstoriesmb/shapefiles/07_divas_boulanger/7_step_3_plp.geojson",
       cluster: false,
     },
     {
@@ -1205,7 +1205,7 @@ const geojson = {
       displayType: "line",
       paint: "path",
       layout: "ends",
-      data: "../src/shapefiles/07_divas_boulanger/7_step_3_wpg_to_plp.geojson",
+      data: "/reddressstoriesmb/shapefiles/07_divas_boulanger/7_step_3_wpg_to_plp.geojson",
       cluster: false,
     },
     {
@@ -1213,7 +1213,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/07_divas_boulanger/7_step_5_nt_rb.geojson",
+      data: "/reddressstoriesmb/shapefiles/07_divas_boulanger/7_step_5_nt_rb.geojson",
       cluster: false,
     },
 
@@ -1223,7 +1223,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/08_lorna_blacksmith/8_step_1_pimicikimak.geojson",
+      data: "/reddressstoriesmb/shapefiles/08_lorna_blacksmith/8_step_1_pimicikimak.geojson",
       cluster: false,
     },
     {
@@ -1231,7 +1231,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/08_lorna_blacksmith/8_step_3_gordonbell.geojson",
+      data: "/reddressstoriesmb/shapefiles/08_lorna_blacksmith/8_step_3_gordonbell.geojson",
       cluster: false,
     },
     {
@@ -1239,7 +1239,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/08_lorna_blacksmith/8_step_4_notredame.geojson",
+      data: "/reddressstoriesmb/shapefiles/08_lorna_blacksmith/8_step_4_notredame.geojson",
       cluster: false,
     },
     {
@@ -1247,7 +1247,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/08_lorna_blacksmith/8_step_4_ellice.geojson",
+      data: "/reddressstoriesmb/shapefiles/08_lorna_blacksmith/8_step_4_ellice.geojson",
       cluster: false,
     },
     {
@@ -1256,7 +1256,7 @@ const geojson = {
       displayType: "line",
       paint: "path",
       layout: "ends",
-      data: "../src/shapefiles/08_lorna_blacksmith/8_step_4_torontost.geojson",
+      data: "/reddressstoriesmb/shapefiles/08_lorna_blacksmith/8_step_4_torontost.geojson",
       cluster: false,
     },
     {
@@ -1264,7 +1264,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/08_lorna_blacksmith/8_step_5_reportedlocations.geojson",
+      data: "/reddressstoriesmb/shapefiles/08_lorna_blacksmith/8_step_5_reportedlocations.geojson",
       cluster: false,
     },
     {
@@ -1272,7 +1272,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "fill",
       paint: "filled",
-      data: "../src/shapefiles/08_lorna_blacksmith/8_step_7_lb_cs_tn.geojson",
+      data: "/reddressstoriesmb/shapefiles/08_lorna_blacksmith/8_step_7_lb_cs_tn.geojson",
       cluster: false,
     },
     {
@@ -1281,7 +1281,7 @@ const geojson = {
       displayType: "line",
       paint: "path",
       layout: "ends",
-      data: "../src/shapefiles/08_lorna_blacksmith/8_step_7_lb_cs_tn.geojson",
+      data: "/reddressstoriesmb/shapefiles/08_lorna_blacksmith/8_step_7_lb_cs_tn.geojson",
       cluster: false,
     },
     {
@@ -1289,7 +1289,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/08_lorna_blacksmith/8_step_7_lb_cs_tn_points.geojson",
+      data: "/reddressstoriesmb/shapefiles/08_lorna_blacksmith/8_step_7_lb_cs_tn_points.geojson",
       cluster: false,
     },
     {
@@ -1298,7 +1298,7 @@ const geojson = {
       displayType: "line",
       paint: "path",
       layout: "ends",
-      data: "../src/shapefiles/08_lorna_blacksmith/8_step_9_memorial.geojson",
+      data: "/reddressstoriesmb/shapefiles/08_lorna_blacksmith/8_step_9_memorial.geojson",
       cluster: false,
     },
     {
@@ -1306,7 +1306,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "circle",
       paint: "range",
-      data: "../src/shapefiles/08_lorna_blacksmith/8_step_9_memorial_point.geojson",
+      data: "/reddressstoriesmb/shapefiles/08_lorna_blacksmith/8_step_9_memorial_point.geojson",
       cluster: false,
     },
 
@@ -1316,7 +1316,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/09_tina_fontaine/9_step_1_wpg_sagk_bvein.geojson",
+      data: "/reddressstoriesmb/shapefiles/09_tina_fontaine/9_step_1_wpg_sagk_bvein.geojson",
       cluster: false,
     },
     {
@@ -1324,7 +1324,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/09_tina_fontaine/9_step_2_pvpf_sagk.geojson",
+      data: "/reddressstoriesmb/shapefiles/09_tina_fontaine/9_step_2_pvpf_sagk.geojson",
       cluster: false,
     },
     {
@@ -1332,7 +1332,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/09_tina_fontaine/9_step_3_pvpf_wpg.geojson",
+      data: "/reddressstoriesmb/shapefiles/09_tina_fontaine/9_step_3_pvpf_wpg.geojson",
       cluster: false,
     },
     {
@@ -1341,7 +1341,7 @@ const geojson = {
       displayType: "line",
       paint: "path",
       layout: "ends",
-      data: "../src/shapefiles/09_tina_fontaine/9_step_3_pvpf_wpg_path.geojson",
+      data: "/reddressstoriesmb/shapefiles/09_tina_fontaine/9_step_3_pvpf_wpg_path.geojson",
       cluster: false,
     },
     {
@@ -1349,7 +1349,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "fill",
       paint: "filled",
-      data: "../src/shapefiles/09_tina_fontaine/9_step_5_downtown.geojson",
+      data: "/reddressstoriesmb/shapefiles/09_tina_fontaine/9_step_5_downtown.geojson",
       cluster: false,
     },
     {
@@ -1358,7 +1358,7 @@ const geojson = {
       displayType: "line",
       paint: "path",
       layout: "ends",
-      data: "../src/shapefiles/09_tina_fontaine/9_step_5_downtown.geojson",
+      data: "/reddressstoriesmb/shapefiles/09_tina_fontaine/9_step_5_downtown.geojson",
       cluster: false,
     },
     {
@@ -1366,7 +1366,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/09_tina_fontaine/9_step_6_docks.geojson",
+      data: "/reddressstoriesmb/shapefiles/09_tina_fontaine/9_step_6_docks.geojson",
       cluster: false,
     },
     {
@@ -1374,7 +1374,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/09_tina_fontaine/9_step_8_inquiry.geojson",
+      data: "/reddressstoriesmb/shapefiles/09_tina_fontaine/9_step_8_inquiry.geojson",
       cluster: false,
     },
     // --- Phoenix Sinclair --- //
@@ -1383,7 +1383,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/10_phoenix_sinclair/10_step_2_fisherriver.geojson",
+      data: "/reddressstoriesmb/shapefiles/10_phoenix_sinclair/10_step_2_fisherriver.geojson",
       cluster: false,
     },
     {
@@ -1391,7 +1391,7 @@ const geojson = {
       filetype: "geojson",
       displayType: "symbol",
       layout: "marker",
-      data: "../src/shapefiles/10_phoenix_sinclair/10_step_3_fisherriver_landfill.geojson",
+      data: "/reddressstoriesmb/shapefiles/10_phoenix_sinclair/10_step_3_fisherriver_landfill.geojson",
       cluster: false,
     },
 

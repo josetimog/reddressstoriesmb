@@ -1,0 +1,15 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name": "Ochekiwi Sipi (Fisher River Cree Nation)"
+            },
+            "geometry":{
+                "coordinates":[-97.38608383156591,51.437772831512895],
+                "type":"Point"
+            }
+        }
+    ]
+}

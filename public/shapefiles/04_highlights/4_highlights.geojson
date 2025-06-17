@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+"crs": {
+  "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Helen Betty Osborne"
+	},
+      "geometry": {
+        "coordinates": [
+          -97.83521702824335,
+          53.966715141262256
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Divas Boulanger"
+        },
+      "geometry": {
+        "coordinates": [
+	        -97.0025619846544,
+	        52.35315295587283 
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lorna Blacksmith"
+        },
+      "geometry": {
+        "coordinates": [
+          -97.78078982441019,
+	        54.62762200388844
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jessica Michaels"
+        },
+      "geometry": {
+        "coordinates": [
+          -97.1385, 
+	        49.8954
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tina Fontaine"
+        },
+      "geometry": {
+        "coordinates": [
+	        -96.295556,
+          50.608889
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

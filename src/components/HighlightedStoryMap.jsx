@@ -192,8 +192,7 @@ const HighlightedStoryMap = () => {
   }
 
   async function getLayerData(boundary) {
-    let shape =
-      "../src/shapefiles/boundary_lines/" + boundary + "_boundary.json";
+    let shape = `/reddressstoriesmb/shapefiles/boundary_lines/${boundary}_boundary.json`;
     const response = await fetch(shape);
     const data = await response.json();
     return data;

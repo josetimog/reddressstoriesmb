@@ -248,7 +248,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Helen Betty Osborne",
-      image: "/assets/helen_betty/1_HBO Portrait.jpg",
+      image: "/reddressstoriesmb/assets/helen_betty/1_HBO Portrait.jpg",
       description:
         "Helen Betty Osborne was a Cree teenager from Norway House, a First Nation community located approximately 600 km \
             north of Winnipeg. Deeply loved by her family and friends, she was often referred to as Betty.",
@@ -307,7 +307,8 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Helen Betty Osborne",
-      image: "/assets/helen_betty/margaret_barbour_collegiate.jpg",
+      image:
+        "/reddressstoriesmb/assets/helen_betty/margaret_barbour_collegiate.jpg",
       description:
         "After two years at Guy Hill, Betty moved to The Pas to attend high school at Margaret Barbour Collegiate. \
             Room and board were arranged for Betty with a family in The Pas, arranged by the Department of Indian Affairs as per protocols \
@@ -525,7 +526,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Aboriginal Justice Inquiry",
-      image: "/assets/helen_betty/AJI image.jpg",
+      image: "/reddressstoriesmb/assets/helen_betty/AJI image.jpg",
       description:
         "The Aboriginal Justice Inquiry, commissioned by the Manitoba government in 1988, was mandated to investigate racism \
             in Manitoba's justice system through the lens of Helen Betty Osborne's murder as well as the 1988 police shooting of J.J. Harper. \
@@ -612,7 +613,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Jessica Michaels",
-      image: "/assets/jessica_michaels/1_Jessica.png",
+      image: "/reddressstoriesmb/assets/jessica_michaels/1_Jessica.png",
       description:
         "Jessica Michaels was a creative child and teenager. She loved singing, fashion, and her family. She was known by many for her \
     beautiful voice.<br><br> She was resourceful and full of life. Despite the hardships she endured throughout her short life, she brought laughter \
@@ -639,7 +640,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Jessica Michaels",
-      image: "/assets/jessica_michaels/2_Jessica.jpg",
+      image: "/reddressstoriesmb/assets/jessica_michaels/2_Jessica.jpg",
       description:
         "As a youth, Jessica and her cousins became well-known Inuit Throat Singers and travelled around the world to perform. \
     One of these performances was at the 1996 Summer Olympic Games in Atlanta, Georgia.<br><br>Before, during, and after this time, she also \
@@ -826,7 +827,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Divas Boulanger",
-      image: "/assets/divas_boulanger/1_Divas.jpg",
+      image: "/reddressstoriesmb/assets/divas_boulanger/1_Divas.jpg",
       description:
         "Divas Boulanger was a 27-year-old Indigenous transgender woman from the Berens River First Nations community. Divas left her community due to a lack of resources, security, and housing.<br><br> \
         After departing from her community, Divas situated herself in Winnipeg where she became vulnerable and was exploited within the survival sex industry. She experienced chronic homelessness due to a number of barriers within the social services system.<br><br> \
@@ -1039,7 +1040,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Lorna Blacksmith",
-      image: "/assets/lorna_blacksmith/1_Lorna.jpg",
+      image: "/reddressstoriesmb/assets/lorna_blacksmith/1_Lorna.jpg",
       description:
         "Lorna Lynn Blacksmith was a bright, vivacious teenager originally from Pimicikamak (Cross Lake), located over 700 km north of \
     Winnipeg.",
@@ -1066,7 +1067,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Lorna Blacksmith",
-      image: "/assets/lorna_blacksmith/2_Lorna.jpg",
+      image: "/reddressstoriesmb/assets/lorna_blacksmith/2_Lorna.jpg",
       description:
         "Lorna was a member of the Cross Lake Cadet Corps. She served as a leading member of the Corps according to her Commanding Officer. \
     She was always proud to be a Cadet.",
@@ -1146,7 +1147,8 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Lorna Blacksmith",
-      image: "/assets/lorna_blacksmith/5_Lorna Facebook screenshot.jpg",
+      image:
+        "/reddressstoriesmb/assets/lorna_blacksmith/5_Lorna Facebook screenshot.jpg",
       description:
         "On January 24, 2012, a missing person advisory was released by the Winnipeg Police Service.<br><br>While Lorna was missing, the \
     community and her family created the 'Find Lorna Blacksmith' Facebook group. Former Chief of Pimicikamak, Cathy Merrick (current Grand Chief \
@@ -1256,7 +1258,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Lorna Blacksmith",
-      image: "/assets/lorna_blacksmith/5_Lorna Memorial.jpg",
+      image: "/reddressstoriesmb/assets/lorna_blacksmith/5_Lorna Memorial.jpg",
       description:
         "More than 40 military cadets from northern Manitoba gathered in a back lane near Simcoe Street, close to the backyard where Lorna's \
     body was discovered in June 2012. Members of the RCMP and Winnipeg Police Service attended the ceremony.",
@@ -1311,7 +1313,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Tina Fontaine",
-      image: "/assets/tina_fontaine/1_Tina.jpg",
+      image: "/reddressstoriesmb/assets/tina_fontaine/1_Tina.jpg",
       description:
         "Tina Fontaine was born in Winnipeg in 1999. Her parents were from Sagkeeng First Nation and Bloodvein First Nation.",
       location: {
@@ -1474,7 +1476,8 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Tina Fontaine",
-      image: "/assets/tina_fontaine/2 _Final Report Cover.jpg",
+      image:
+        "/reddressstoriesmb/assets/tina_fontaine/2 _Final Report Cover.jpg",
       description:
         "Tina's death sparked outrage in Manitoba and across Canada, and renewed calls for a national inquiry into missing and murdered \
     Indigenous women and girls in Canada.<br><br>In 2015, the Government of Canada announced that the National Inquiry would take place. \
@@ -1536,7 +1539,7 @@ var config = {
       hidden: false,
       title:
         "Tina Fontaine — Manitoba Advocate for Children and Youth Special Report",
-      image: "/assets/tina_fontaine/6_MACY Cover edited.jpg",
+      image: "/reddressstoriesmb/assets/tina_fontaine/6_MACY Cover edited.jpg",
       description:
         "Tina's death also renewed the focus on the treatment of Indigenous children in the custody of Child and Family Services. The \
     Manitoba Advocate for Children and Youth released a special report about Tina's life and the failures of many systems that were supposed to \
@@ -1565,7 +1568,7 @@ var config = {
       alignment: "center",
       hidden: false,
       title: "Tina Fontaine — Tina's Safe Haven",
-      image: "/assets/tina_fontaine/5_Tinas Safe Haven.jpg",
+      image: "/reddressstoriesmb/assets/tina_fontaine/5_Tinas Safe Haven.jpg",
       description:
         "Ndinawe Youth Resource Centre was renamed Tina's Safe Haven in honour of Tina. It is now a 24/7 drop-in centre that provides youth \
         with somewhere safe to go when they need it most.",
@@ -1590,7 +1593,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Phoenix Sinclair",
-      image: "/assets/phoenix_sinclair/2_Phoenix.jpg",
+      image: "/reddressstoriesmb/assets/phoenix_sinclair/2_Phoenix.jpg",
       description:
         "<br>Phoenix Victoria Hope Sinclair was born in Winnipeg in 2000.<br><br> \
         Her parents, both teenagers and survivors of childhood abuse, were unprepared to bring her home. \
@@ -1719,7 +1722,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Responses to Phoenix's Murder",
-      image: "/assets/phoenix_sinclair/5_Achieving.jpg",
+      image: "/reddressstoriesmb/assets/phoenix_sinclair/5_Achieving.jpg",
       description:
         "<br>Public outrage followed the discovery of Phoenix’s murder, compounded by the lengthy period for which her disappearance went unnoted. \
         <br><br>A number of reports were commissioned as a result, \
@@ -1841,7 +1844,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Special Report by Manitoba Advocate for Children and Youth",
-      image: "/assets/phoenix_sinclair/9_Still_Waiting.jpg",
+      image: "/reddressstoriesmb/assets/phoenix_sinclair/9_Still_Waiting.jpg",
       description:
         "<br>Released in 2021, the special report “<a href='https://manitobaadvocate.ca/wp-content/uploads/Maltreatment_Report.pdf'>Still Waiting: Investigating Child Maltreatment after the Phoenix Sinclair Inquiry</a>” \
         profiled 19 children who experienced maltreatment by the adults who were supposed to keep them safe.<br><br> \

@@ -478,7 +478,9 @@ function MapContainer({ filters, sort, setFilteredResults, setFilteredCount }) {
 
   async function getLayerData(boundary) {
     let shape =
-      "/assets/shapefiles/boundary_lines/" + boundary + "_boundary.json";
+      "/reddressstoriesmb/assets/shapefiles/boundary_lines/" +
+      boundary +
+      "_boundary.json";
     const response = await fetch(shape);
     const data = await response.json();
     return data;
@@ -498,7 +500,7 @@ function MapContainer({ filters, sort, setFilteredResults, setFilteredCount }) {
     } = feature.properties;
 
     const html = `
-      <img src="/assets/victims/${image}" loading="lazy" />
+      <img src="/reddressstoriesmb/assets/victims/${image}" loading="lazy" />
       <div class="popup-details">
           <p class="popup-name truncate">${name}</p>
             <p>${

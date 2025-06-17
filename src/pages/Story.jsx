@@ -69,7 +69,7 @@ function Story() {
               <Grid item xs={12} md={5}>
                 <Box
                   component="img"
-                  src={`/assets/victims/${image}`}
+                  src={`/reddressstoriesmb/assets/victims/${image}`}
                   alt={name}
                   sx={{
                     width: "100%",

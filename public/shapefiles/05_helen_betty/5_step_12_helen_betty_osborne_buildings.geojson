@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Helen Betty Osborne Foundation and Naming Recognitions",
+        "description": "<h4> The Helen Betty Osborne Memorial Fund</h4>The Helen Betty Osborne Memorial Fund recognizes Indigenous students who are making a difference in eliminating the barriers of racism, sexism, violence, and indifference in society. The scholarship fund was established to honour her memory and provide financial assistance to Indigenous students. It is currently managed by The Winnipeg Foundation.<br><br><h4> Naming Recognitions</h4>The University of Winnipeg named the building housing the Wii Chiiwaakanak Learning Centre and other Indigenous education initiatives the “Helen Betty Osborne Building.” This naming recognized Helen Betty and Indigenous women who have experienced violence, and acknowledged her as a symbol of hope for young Indigenous adults due to her commitment to education.<figure><img src='./images/05_helen_betty/5_HBO Building_b_cropped.jpg', class='popup-img'><figcaption>In 2018, Metis mural artist Kenneth Lavallee led a project to cover the Helen Betty Osborne building with a star blanket. In Indigenous traditions, being gifted with a star blanket is a high honour. It is intended to protect, honour, and recognize the work an individual does to forge a path to the future. The mural is dedicated to MMIWG2S+ (Niigaan Sinclair, 2018).</figcaption></figure>"
+      },
+      "geometry": {
+        "coordinates": [
+          -97.15466571114277,
+          49.89297985939842
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Helen Betty Osborne Ininew Education Resource Center",
+        "description": "<h4>The Helen Betty Osborne Ininew Education Resource Centre, Norway House, MB</h4><figure><img src='./images/05_helen_betty/2_HBO School_a.jpg', class='popup-img'><figcaption>Aerial view of the Helen Betty Osborne Ininew Resource Centre (copyright HRTC)</figcaption></figure><br>The Helen Betty Osborne Ininew Education Resource Centre in Helen Betty's home community of Norway House is one of the largest First Nations schools in Canada. It's a comprehensive K-12 school that provides closer-to-home educational opportunities for students from multiple communities, and opened in 2004 following extensive planning, design, and construction."
+      },
+      "geometry": {
+        "coordinates": [
+          -97.83288767129375,
+          53.982083906422126
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

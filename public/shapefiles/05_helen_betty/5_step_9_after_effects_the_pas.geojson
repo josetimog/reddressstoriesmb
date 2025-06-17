@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description":"The murder of Betty Osborne clearly was motivated by racism."
+      },
+      "geometry": {
+        "coordinates": [
+          -101.24911458861921,
+          53.826767484548355
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description":"The manner in which the police pursued their investigation by rounding up and questioning only Indigenous students was motivated, at least in part, by race."
+      },
+      "geometry": {
+        "coordinates": [
+          -101.24103858563085,
+          53.82062992744818
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description":"The systematic removal of Indigenous jurors from the jury panel was motivated by their being Indigenous persons. The jury selection process permitted racism to be applied."
+      },
+      "geometry": {
+        "coordinates": [
+          -101.2397767101635,
+          53.812941810026956
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description":"<p>The refusal to come forward by some of the people who had actual information and evidence about what occurred on the night of November 12, 1971, was undoubtedly motivated in part by the fact that the victim was Indigenous.</p>"
+      },
+      "geometry": {
+        "coordinates": [
+          -101.25138596445989,
+          53.81732242147237
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    }
+  ]
+}

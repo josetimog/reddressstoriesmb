@@ -1,6 +1,6 @@
 import React from "react";
 
-const AudioPlayer = ({ src = "/assets/remember_me.mp3" }) => {
+const AudioPlayer = ({ src = "/reddressstoriesmb/assets/remember_me.mp3" }) => {
   return (
     <audio
       controls

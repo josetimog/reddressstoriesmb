@@ -12,14 +12,14 @@ import { useNavigate } from "react-router-dom";
 const cardData = [
   {
     id: 10,
-    image: "/assets/victims/helen_betty_osborne.jpg",
+    image: "/reddressstoriesmb/assets/victims/helen_betty_osborne.jpg",
     title: "Helen Betty Osborne, 19",
     location: "From: Norway House",
     description: "Found murdered near The Pas in 1971.",
   },
   {
     id: 118,
-    image: "/assets/victims/jessica_michaels.jpg",
+    image: "/reddressstoriesmb/assets/victims/jessica_michaels.jpg",
     title: "Jessica Michaels, 17",
     location: "From: Chesterfield Inlet, Nunavut",
     description:
@@ -27,28 +27,28 @@ const cardData = [
   },
   {
     id: 138,
-    image: "/assets/victims/divas_boulanger.jpg",
+    image: "/reddressstoriesmb/assets/victims/divas_boulanger.jpg",
     title: "Divas Boulanger, 24",
     location: "From: Berens River First Nation",
     description: "Found murdered near Portage la Prairie in 2004.",
   },
   {
     id: 206,
-    image: "/assets/victims/lorna_blacksmith.jpg",
+    image: "/reddressstoriesmb/assets/victims/lorna_blacksmith.jpg",
     title: "Lorna Blacksmith, 18",
     location: "From: Pimicikamak (Cross Lake First Nation)",
     description: "Lived in Winnipeg at the time of her murder in 2011.",
   },
   {
     id: 238,
-    image: "/assets/victims/tina_michelle_fontaine.jpg",
+    image: "/reddressstoriesmb/assets/victims/tina_michelle_fontaine.jpg",
     title: "Tina Fontaine, 15",
     location: "From: Sagkeeng First Nation",
     description: "Found murdered in Winnipeg in 2014.",
   },
   {
     id: 153,
-    image: "/assets/victims/phoenix_sinclair.jpg",
+    image: "/reddressstoriesmb/assets/victims/phoenix_sinclair.jpg",
     title: "Phoenix Sinclair, 5",
     location: "From: Ochekiwi Sipi (Fisher Fisher Cree Nation)",
     description: "Found murdered in Fisher River Cree Nation in 2005.",

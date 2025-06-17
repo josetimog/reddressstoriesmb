@@ -259,7 +259,7 @@ function AboutSection() {
 
         <Box
           component="img"
-          src="/assets/slideshow/1.jpg"
+          src="/reddressstoriesmb/assets/slideshow/1.jpg"
           alt="Red Dress Memorial"
           sx={{
             display: "block",

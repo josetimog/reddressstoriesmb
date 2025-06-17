@@ -1,0 +1,15 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "name": "Berens River First Nation"
+            },
+            "geometry":{
+                "coordinates":[-97.00358001703229,52.35239686756083],
+                "type":"Point"
+            }
+        }
+    ]
+}

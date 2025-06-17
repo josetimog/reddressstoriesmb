@@ -35,7 +35,7 @@ function ListItem({ feature }) {
     >
       <img
         loading="lazy"
-        src={`/assets/victims/${image}`}
+        src={`/reddressstoriesmb/assets/victims/${image}`}
         alt={name}
         className="victim-photo"
       />
