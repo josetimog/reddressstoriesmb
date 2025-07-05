@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "Kikendamowin miinawaa Mikwendamowin",
+    "subtitle": "Ikwewag, ikwezensag miinawaa Niizh Manidoowag Anishinaabeg",
+    "tagline": "Minobimaadizwinan miigwewin. Dazhi-zhigeyaang wiijiiwaaganag.",
+    "cta": "Nandawenjige Gikinoo'amaadiwinan"
+  },
+  "gallery": {
+    "heading": "Dibaajimowinan Nishinaabewin",
+    "intro": "Niizhwaaching dibaajimowinan gaye, niwii-gikendamaan ezhi-bimaadiziwaad miinawaa ezhi-miinigoziwaad ji-maamawi-bimaadiziwaad noongom gii-miigaadiwag.",
+    "permissionNote": "Giganawenimaanaanig gii-maajiishkaadaa dibaajimowinan gaye zhichigewaad waasa nitaa-mazina’igan.",
+    "cards": {
+      "helen": {
+        "title": "Helen Betty Osborne, 19",
+        "location": "Onaakonigewin: Norway House",
+        "description": "Aakozi gii-mikwaabamin naawaji The Pas noongom 1971."
+      },
+      "jessica": {
+        "title": "Jessica Michaels, 17",
+        "location": "Onaakonigewin: Chesterfield Inlet, Nunavut",
+        "description": "Odaawaawi’igewin ina gii-piitaadizid noongom 2001, odoodemag waa-gashkendamowad."
+      },
+      "divas": {
+        "title": "Divas Boulanger, 24",
+        "location": "Onaakonigewin: Berens River First Nation",
+        "description": "Gii-mikwaabamin gii-giishpinik Portage la Prairie noongom 2004."
+      },
+      "lorna": {
+        "title": "Lorna Blacksmith, 18",
+        "location": "Onaakonigewin: Pimicikamak (Cross Lake First Nation)",
+        "description": "Gii-ayaa Winnipeg endaso-dibaajimowaad noongom 2011."
+      },
+      "tina": {
+        "title": "Tina Fontaine, 15",
+        "location": "Onaakonigewin: Sagkeeng First Nation",
+        "description": "Gii-mikwaabamin Winnipeg noongom 2014."
+      },
+      "phoenix": {
+        "title": "Phoenix Sinclair, 5",
+        "location": "Onaakonigewin: Ochekiwi Sipi (Fisher River Cree Nation)",
+        "description": "Gii-mikwaabamin Ochekiwi noongom 2005."
+      }
+    }
+  },
+  "nav": {
+    "home": "Wakwi’igan",
+    "about": "Aankwadeng",
+    "stories": "MMIWG2S+ Dibaajimowinan"
+  },
+  "search": {
+    "placeholder": "Mikwenim"
+  }
+}

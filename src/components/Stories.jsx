@@ -1,5 +1,6 @@
 import config from "../data/config";
 import Chapter from "./Chapter.jsx";
+import Priorities from "./Priorities.jsx";
 
 const highlightedStoryIds = {
   10: "helen-betty",
@@ -22,6 +23,7 @@ const Stories = ({ id }) => {
           {storiesChapters.map((chap, idx) => (
             <Chapter key={chap.id} chapter={chap} isActive={idx === 0} />
           ))}
+          <Priorities chapter={config.chapters[60]} />
         </div>
       )}
     </>

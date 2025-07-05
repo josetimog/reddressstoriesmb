@@ -4007,6 +4007,50 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-94.65268, 53.869709] },
+      "properties": {
+        "id": 406,
+        "name": "Journey Anastasia Munroe",
+        "age": 2,
+        "case_type": "Murdered",
+        "home_location": "Kistiganwacheeng (Garden Hill First Nation)",
+        "last_location": "Kistiganwacheeng (Garden Hill First Nation)",
+        "year": 1997,
+        "date": "1997-07-05",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "No",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-94.65268, 53.869709] },
+      "properties": {
+        "id": 406,
+        "name": "Journey Anastasia Munroe",
+        "age": 2,
+        "case_type": "Murdered",
+        "home_location": "Kistiganwacheeng (Garden Hill First Nation)",
+        "last_location": "Kistiganwacheeng (Garden Hill First Nation)",
+        "year": 1997,
+        "date": "1997-07-05",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "No",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-96.62127, 51.835599] },
       "properties": {
         "id": 94,
@@ -4271,6 +4315,50 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.545656, 51.319356] },
+      "properties": {
+        "id": 403,
+        "name": "Kaytlin Crystal Cochrane",
+        "age": 0,
+        "case_type": "Murdered",
+        "home_location": "Peguis First Nation",
+        "last_location": "Winnipeg",
+        "year": 1998,
+        "date": "1998-05-20",
+        "image": "kaytlin_crystal_cochrane.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Parent/Caregiver",
+        "parent": "No",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.137507, 49.900706] },
+      "properties": {
+        "id": 403,
+        "name": "Kaytlin Crystal Cochrane",
+        "age": 0,
+        "case_type": "Murdered",
+        "home_location": "Peguis First Nation",
+        "last_location": "Winnipeg",
+        "year": 1998,
+        "date": "1998-05-20",
+        "image": "kaytlin_crystal_cochrane.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Parent/Caregiver",
+        "parent": "No",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-97.365072, 51.443415] },
       "properties": {
         "id": 99,
@@ -4310,6 +4398,50 @@
         "cfs": "Unknown",
         "perp_relation": "Unknown",
         "parent": "Yes",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-96.299361, 51.189714] },
+      "properties": {
+        "id": 405,
+        "name": "Channelle Juliet Williams",
+        "age": 5,
+        "case_type": "Murdered",
+        "home_location": "Hollow Water First Nation",
+        "last_location": "Hollow Water First Nation",
+        "year": 1998,
+        "date": "1998-07-10",
+        "image": "channelle_juliet_williams.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "No",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-96.299361, 51.189714] },
+      "properties": {
+        "id": 405,
+        "name": "Channelle Juliet Williams",
+        "age": 5,
+        "case_type": "Murdered",
+        "home_location": "Hollow Water First Nation",
+        "last_location": "Hollow Water First Nation",
+        "year": 1998,
+        "date": "1998-07-10",
+        "image": "channelle_juliet_williams.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "No",
         "location_type": "Last Seen"
       }
     },
@@ -4403,21 +4535,65 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-96.048586, 50.212807] },
+      "geometry": { "type": "Point", "coordinates": [-97.007876, 52.356685] },
       "properties": {
-        "id": 98,
-        "name": "Mary Buller",
-        "age": 63,
+        "id": 404,
+        "name": "Bonnie Lynn McKay",
+        "age": 13,
         "case_type": "Murdered",
-        "home_location": "Unknown",
-        "last_location": "Lac du Bonnet",
+        "home_location": "Miimiiwi-ziibiing (Berens River First Nation)",
+        "last_location": "Miimiiwi-ziibiing (Berens River First Nation)",
         "year": 1998,
-        "date": "1998-09-30",
-        "image": "mary_buller.jpg",
+        "date": "1998-09-20",
+        "image": "bonnie_lynn_mckay.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Unknown",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "Unknown",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.007876, 52.356685] },
+      "properties": {
+        "id": 404,
+        "name": "Bonnie Lynn McKay",
+        "age": 13,
+        "case_type": "Murdered",
+        "home_location": "Miimiiwi-ziibiing (Berens River First Nation)",
+        "last_location": "Miimiiwi-ziibiing (Berens River First Nation)",
+        "year": 1998,
+        "date": "1998-09-20",
+        "image": "bonnie_lynn_mckay.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Unknown",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "Unknown",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-98.654238, 50.54982] },
+      "properties": {
+        "id": 400,
+        "name": "Deborah Leah Beaulieu",
+        "age": 39,
+        "case_type": "Murdered",
+        "home_location": "Gaa-wiikwedaawangaag (Sandy Bay Ojibway First Nation)",
+        "last_location": "Winnipeg",
+        "year": 1999,
+        "date": "1999-01-01",
+        "image": "deborah_leah_beaulieu.jpg",
         "lgbt": false,
         "survival_worker": false,
         "unhoused": "No",
-        "cfs": "No",
+        "cfs": "Unknown",
         "perp_relation": "Unknown",
         "parent": "Yes",
         "location_type": "Home"
@@ -4425,22 +4601,110 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-96.061834, 50.250852] },
+      "geometry": { "type": "Point", "coordinates": [-97.140968, 49.885598] },
       "properties": {
-        "id": 98,
-        "name": "Mary Buller",
-        "age": 63,
+        "id": 400,
+        "name": "Deborah Leah Beaulieu",
+        "age": 39,
         "case_type": "Murdered",
-        "home_location": "Unknown",
-        "last_location": "Lac du Bonnet",
-        "year": 1998,
-        "date": "1998-09-30",
-        "image": "mary_buller.jpg",
+        "home_location": "Gaa-wiikwedaawangaag (Sandy Bay Ojibway First Nation)",
+        "last_location": "Winnipeg",
+        "year": 1999,
+        "date": "1999-01-01",
+        "image": "deborah_leah_beaulieu.jpg",
         "lgbt": false,
         "survival_worker": false,
         "unhoused": "No",
-        "cfs": "No",
+        "cfs": "Unknown",
         "perp_relation": "Unknown",
+        "parent": "Yes",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-98.605514, 50.947722] },
+      "properties": {
+        "id": 401,
+        "name": "Abbie Maytwayashing",
+        "age": 0,
+        "case_type": "Murdered",
+        "home_location": "Animo-ziibiing (Lake Manitoba First Nation)",
+        "last_location": "Winnipeg",
+        "year": 1999,
+        "date": "1999-01-05",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Parent/Caregiver",
+        "parent": "No",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.146008, 49.912654] },
+      "properties": {
+        "id": 401,
+        "name": "Abbie Maytwayashing",
+        "age": 0,
+        "case_type": "Murdered",
+        "home_location": "Animo-ziibiing (Lake Manitoba First Nation)",
+        "last_location": "Winnipeg",
+        "year": 1999,
+        "date": "1999-01-05",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Parent/Caregiver",
+        "parent": "No",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-98.667162, 51.604977] },
+      "properties": {
+        "id": 402,
+        "name": "Leona Anderson",
+        "age": 16,
+        "case_type": "Murdered",
+        "home_location": "Pinaymootang (Fairford First Nation)",
+        "last_location": "Winnipeg",
+        "year": 1999,
+        "date": "1999-01-19",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Unknown",
+        "cfs": "Unknown",
+        "perp_relation": "Stranger",
+        "parent": "Yes",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.155653, 49.904188] },
+      "properties": {
+        "id": 402,
+        "name": "Leona Anderson",
+        "age": 16,
+        "case_type": "Murdered",
+        "home_location": "Pinaymootang (Fairford First Nation)",
+        "last_location": "Winnipeg",
+        "year": 1999,
+        "date": "1999-01-19",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Unknown",
+        "cfs": "Unknown",
+        "perp_relation": "Stranger",
         "parent": "Yes",
         "location_type": "Last Seen"
       }
@@ -5019,6 +5283,50 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-96.998873, 52.352444] },
+      "properties": {
+        "id": 399,
+        "name": "Jasmine Elsie McDonald",
+        "age": 0,
+        "case_type": "Murdered",
+        "home_location": "Miimiiwi-ziibiing (Berens River First Nation)",
+        "last_location": "Miimiiwi-ziibiing (Berens River First Nation)",
+        "year": 2000,
+        "date": "2000-08-07",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "No",
+        "perp_relation": "Parent/Caregiver",
+        "parent": "No",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-96.998873, 52.352444] },
+      "properties": {
+        "id": 399,
+        "name": "Jasmine Elsie McDonald",
+        "age": 0,
+        "case_type": "Murdered",
+        "home_location": "Miimiiwi-ziibiing (Berens River First Nation)",
+        "last_location": "Miimiiwi-ziibiing (Berens River First Nation)",
+        "year": 2000,
+        "date": "2000-08-07",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "No",
+        "perp_relation": "Parent/Caregiver",
+        "parent": "No",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-96.782478, 51.575008] },
       "properties": {
         "id": 117,
@@ -5056,6 +5364,50 @@
         "survival_worker": true,
         "unhoused": "Unknown",
         "cfs": "No",
+        "perp_relation": "Unknown",
+        "parent": "Unknown",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-100.490317, 49.861107] },
+      "properties": {
+        "id": 398,
+        "name": "Selena Charmaine Naomi Mazawasicuna",
+        "age": 12,
+        "case_type": "Murdered",
+        "home_location": "Wipazoka Wakpa (Sioux Valley Dakota Nation)",
+        "last_location": "Wipazoka Wakpa (Sioux Valley Dakota Nation)",
+        "year": 2001,
+        "date": "2001-08-10",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "Unknown",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-100.490317, 49.861107] },
+      "properties": {
+        "id": 398,
+        "name": "Selena Charmaine Naomi Mazawasicuna",
+        "age": 12,
+        "case_type": "Murdered",
+        "home_location": "Wipazoka Wakpa (Sioux Valley Dakota Nation)",
+        "last_location": "Wipazoka Wakpa (Sioux Valley Dakota Nation)",
+        "year": 2001,
+        "date": "2001-08-10",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
         "perp_relation": "Unknown",
         "parent": "Unknown",
         "location_type": "Last Seen"
@@ -5195,6 +5547,50 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-95.600601, 56.067078] },
+      "properties": {
+        "id": 397,
+        "name": "Valerie Amy Ouskun",
+        "age": 16,
+        "case_type": "Murdered",
+        "home_location": "Ilford",
+        "last_location": "Winnipeg",
+        "year": 2001,
+        "date": "2001-12-15",
+        "image": "valerie_ouskun.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "No",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.142291, 49.923487] },
+      "properties": {
+        "id": 397,
+        "name": "Valerie Amy Ouskun",
+        "age": 16,
+        "case_type": "Murdered",
+        "home_location": "Ilford",
+        "last_location": "Winnipeg",
+        "year": 2001,
+        "date": "2001-12-15",
+        "image": "valerie_ouskun.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "No",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-97.87359, 51.815237] },
       "properties": {
         "id": 115,
@@ -5327,44 +5723,44 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-98.693763, 51.597759] },
+      "geometry": { "type": "Point", "coordinates": [-98.643188, 51.609976] },
       "properties": {
-        "id": 126,
+        "id": 395,
         "name": "Martha Florence Marsden (Thompson)",
         "age": 36,
         "case_type": "Murdered",
         "home_location": "Pinaymootang (Fairford First Nation)",
         "last_location": "Winnipeg",
         "year": 2002,
-        "date": "2002-02-22",
-        "image": "photo_unavailable.jpg",
+        "date": "2002-02-23",
+        "image": "martha_florence_thompson.jpg",
         "lgbt": false,
         "survival_worker": false,
         "unhoused": "Unknown",
         "cfs": "Unknown",
-        "perp_relation": "Unknown",
+        "perp_relation": "Spouse/Partner",
         "parent": "Yes",
         "location_type": "Home"
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-97.135382, 49.915777] },
+      "geometry": { "type": "Point", "coordinates": [-97.13538, 49.91578] },
       "properties": {
-        "id": 126,
+        "id": 395,
         "name": "Martha Florence Marsden (Thompson)",
         "age": 36,
         "case_type": "Murdered",
         "home_location": "Pinaymootang (Fairford First Nation)",
         "last_location": "Winnipeg",
         "year": 2002,
-        "date": "2002-02-22",
-        "image": "photo_unavailable.jpg",
+        "date": "2002-02-23",
+        "image": "martha_florence_thompson.jpg",
         "lgbt": false,
         "survival_worker": false,
         "unhoused": "Unknown",
         "cfs": "Unknown",
-        "perp_relation": "Unknown",
+        "perp_relation": "Spouse/Partner",
         "parent": "Yes",
         "location_type": "Last Seen"
       }
@@ -5498,6 +5894,50 @@
         "cfs": "Unknown",
         "perp_relation": "Unknown",
         "parent": "Unknown",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.866454, 55.744418] },
+      "properties": {
+        "id": 396,
+        "name": "Jill Sinclair",
+        "age": 40,
+        "case_type": "Murdered",
+        "home_location": "Unknown",
+        "last_location": "Thompson",
+        "year": 2002,
+        "date": "2002-10-12",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Spouse/Partner",
+        "parent": "Yes",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.866454, 55.744418] },
+      "properties": {
+        "id": 396,
+        "name": "Jill Sinclair",
+        "age": 40,
+        "case_type": "Murdered",
+        "home_location": "Unknown",
+        "last_location": "Thompson",
+        "year": 2002,
+        "date": "2002-10-12",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Spouse/Partner",
+        "parent": "Yes",
         "location_type": "Last Seen"
       }
     },
@@ -6163,6 +6603,50 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.266642, 49.888156] },
+      "properties": {
+        "id": 394,
+        "name": "Veronica \"Ronnie\" Lynn Cropp",
+        "age": 31,
+        "case_type": "Murdered",
+        "home_location": "Unknown",
+        "last_location": "Winnipeg",
+        "year": 2004,
+        "date": "2004-02-14",
+        "image": "veronica_cropp.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Yes",
+        "cfs": "Unknown",
+        "perp_relation": "Spouse/Partner",
+        "parent": "Yes",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.266642, 49.888156] },
+      "properties": {
+        "id": 394,
+        "name": "Veronica \"Ronnie\" Lynn Cropp",
+        "age": 31,
+        "case_type": "Murdered",
+        "home_location": "Unknown",
+        "last_location": "Winnipeg",
+        "year": 2004,
+        "date": "2004-02-14",
+        "image": "veronica_cropp.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Yes",
+        "cfs": "Unknown",
+        "perp_relation": "Spouse/Partner",
+        "parent": "Yes",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-94.016054, 54.908104] },
       "properties": {
         "id": 142,
@@ -6334,6 +6818,50 @@
         "cfs": "Yes",
         "perp_relation": "Parent/Caregiver",
         "parent": "No",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.146946, 49.92265] },
+      "properties": {
+        "id": 393,
+        "name": "Cynthia Lafleur",
+        "age": 25,
+        "case_type": "Murdered",
+        "home_location": "Unknown",
+        "last_location": "Winnipeg",
+        "year": 2004,
+        "date": "2004-06-13",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Known/Acquaintance",
+        "parent": "Yes",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.146946, 49.92265] },
+      "properties": {
+        "id": 393,
+        "name": "Cynthia Lafleur",
+        "age": 25,
+        "case_type": "Murdered",
+        "home_location": "Unknown",
+        "last_location": "Winnipeg",
+        "year": 2004,
+        "date": "2004-06-13",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Known/Acquaintance",
+        "parent": "Yes",
         "location_type": "Last Seen"
       }
     },
@@ -7131,6 +7659,50 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-95.266658, 54.953536] },
+      "properties": {
+        "id": 391,
+        "name": "Lavina Bradburn",
+        "age": 41,
+        "case_type": "Murdered",
+        "home_location": "Oxford House",
+        "last_location": "Winnipeg",
+        "year": 2006,
+        "date": "2006-12-21",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Unknown",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "Yes",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.144649, 49.901943] },
+      "properties": {
+        "id": 391,
+        "name": "Lavina Bradburn",
+        "age": 41,
+        "case_type": "Murdered",
+        "home_location": "Oxford House",
+        "last_location": "Winnipeg",
+        "year": 2006,
+        "date": "2006-12-21",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Unknown",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "Yes",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-99.981438, 49.851464] },
       "properties": {
         "id": 165,
@@ -7301,6 +7873,50 @@
         "unhoused": "No",
         "cfs": "No",
         "perp_relation": "Known/Acquaintance",
+        "parent": "Yes",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-98.30483, 49.973157] },
+      "properties": {
+        "id": 392,
+        "name": "Kristi \"Chrissy\" Charlene Margaret Hall",
+        "age": 36,
+        "case_type": "Murdered",
+        "home_location": "Portage La Prairie",
+        "last_location": "Winnipeg",
+        "year": 2007,
+        "date": "2007-07-27",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "Yes",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.129188, 49.920359] },
+      "properties": {
+        "id": 392,
+        "name": "Kristi \"Chrissy\" Charlene Margaret Hall",
+        "age": 36,
+        "case_type": "Murdered",
+        "home_location": "Portage La Prairie",
+        "last_location": "Winnipeg",
+        "year": 2007,
+        "date": "2007-07-27",
+        "image": "photo_unavailable.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "No",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
         "parent": "Yes",
         "location_type": "Last Seen"
       }
@@ -10777,6 +11393,50 @@
         "unhoused": "Unknown",
         "cfs": "Unknown",
         "perp_relation": "Known/Acquaintance",
+        "parent": "Yes",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-96.309899, 50.613605] },
+      "properties": {
+        "id": 407,
+        "name": "Crystal Lynn Dorie",
+        "age": 32,
+        "case_type": "Unresolved",
+        "home_location": "Sagkeeng (Fort Alexander)",
+        "last_location": "Winnipeg",
+        "year": 2015,
+        "date": "2015-01-29",
+        "image": "crystal_lynn_dorie.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Unknown",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "Yes",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.15249, 49.819425] },
+      "properties": {
+        "id": 407,
+        "name": "Crystal Lynn Dorie",
+        "age": 32,
+        "case_type": "Unresolved",
+        "home_location": "Sagkeeng (Fort Alexander)",
+        "last_location": "Winnipeg",
+        "year": 2015,
+        "date": "2015-01-29",
+        "image": "crystal_lynn_dorie.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Unknown",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
         "parent": "Yes",
         "location_type": "Last Seen"
       }
@@ -14743,6 +15403,50 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-101.374596, 54.584509] },
+      "properties": {
+        "id": 390,
+        "name": "Kara Fosseneuve",
+        "age": 27,
+        "case_type": "Unresolved",
+        "home_location": "Cranberry Portage",
+        "last_location": "Flin Flon",
+        "year": 2023,
+        "date": "2023-01-06",
+        "image": "kara_fosseneuve.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Unknown",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "Yes",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-101.843612, 54.774195] },
+      "properties": {
+        "id": 390,
+        "name": "Kara Fosseneuve",
+        "age": 27,
+        "case_type": "Unresolved",
+        "home_location": "Cranberry Portage",
+        "last_location": "Flin Flon",
+        "year": 2023,
+        "date": "2023-01-06",
+        "image": "kara_fosseneuve.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Unknown",
+        "cfs": "Unknown",
+        "perp_relation": "Unknown",
+        "parent": "Yes",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-97.776949, 53.946256] },
       "properties": {
         "id": 339,
@@ -16371,50 +17075,6 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-99.493336, 50.771887] },
-      "properties": {
-        "id": 375,
-        "name": "Female",
-        "age": 66,
-        "case_type": "Murdered",
-        "home_location": "Unknown",
-        "last_location": "McCreary",
-        "year": 2024,
-        "date": "2024-08-16",
-        "image": "photo_unavailable.jpg",
-        "lgbt": false,
-        "survival_worker": false,
-        "unhoused": "Unknown",
-        "cfs": "Unknown",
-        "perp_relation": "Known/Acquaintance",
-        "parent": "Unknown",
-        "location_type": "Home"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-99.493336, 50.771887] },
-      "properties": {
-        "id": 375,
-        "name": "Female",
-        "age": 66,
-        "case_type": "Murdered",
-        "home_location": "Unknown",
-        "last_location": "McCreary",
-        "year": 2024,
-        "date": "2024-08-16",
-        "image": "photo_unavailable.jpg",
-        "lgbt": false,
-        "survival_worker": false,
-        "unhoused": "Unknown",
-        "cfs": "Unknown",
-        "perp_relation": "Known/Acquaintance",
-        "parent": "Unknown",
-        "location_type": "Last Seen"
-      }
-    },
-    {
-      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-97.13702, 49.886431] },
       "properties": {
         "id": 376,
@@ -16894,6 +17554,50 @@
         "cfs": "Unknown",
         "perp_relation": "Spouse/Partner",
         "parent": "No",
+        "location_type": "Last Seen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-96.881434, 50.148888] },
+      "properties": {
+        "id": 408,
+        "name": "Ashley Nelson",
+        "age": 39,
+        "case_type": "Murdered",
+        "home_location": "Unknown",
+        "last_location": "Selkirk",
+        "year": 2025,
+        "date": "2025-06-30",
+        "image": "ashley_nelson.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Unknown",
+        "cfs": "Unknown",
+        "perp_relation": "Stranger",
+        "parent": "Yes",
+        "location_type": "Home"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-96.881434, 50.148888] },
+      "properties": {
+        "id": 408,
+        "name": "Ashley Nelson",
+        "age": 39,
+        "case_type": "Murdered",
+        "home_location": "Unknown",
+        "last_location": "Selkirk",
+        "year": 2025,
+        "date": "2025-06-30",
+        "image": "ashley_nelson.jpg",
+        "lgbt": false,
+        "survival_worker": false,
+        "unhoused": "Unknown",
+        "cfs": "Unknown",
+        "perp_relation": "Stranger",
+        "parent": "Yes",
         "location_type": "Last Seen"
       }
     }

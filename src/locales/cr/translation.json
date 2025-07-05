@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "Kîwêtinohk êkwa kîwîhkâmâhk",
+    "subtitle": "Iskwêwak, iskwêsisak êkwa nîtisânak mitoni kîsikâw",
+    "tagline": "Mîyo-pimâtisiwin kîsikâw. Mîna kîsikâw nikamokêwak.",
+    "cta": "Wîcihitowin acimowina"
+  },
+  "gallery": {
+    "heading": "Ayamihewêwina kîsikâw",
+    "intro": "Nikotwâsik atoskêwak ayamihewêwina kîkway nipîkiskwêwina êkwa mâmawohkamâtowin kîkway kî-kîsikâw ayamihewêwînawak awa kîsikâw mîna nîsohtêw kîkway otatoskêwina.",
+    "permissionNote": "Giganawenimaanaanig kî-pî-mîyowêyimowak kîkway ôhi ayamihewêwina ka-pî-kiskinwahamâkoyahk.",
+    "cards": {
+      "helen": {
+        "title": "Helen Betty Osborne, 19",
+        "location": "Ota: Norway House",
+        "description": "Kî-nipahiwak pîhtokêhk The Pas kâ-isi êkotêhk 1971."
+      },
+      "jessica": {
+        "title": "Jessica Michaels, 17",
+        "location": "Ota: Chesterfield Inlet, Nunavut",
+        "description": "Okihtwâmâwak kî-nakiskowak kîwîhkâmâhk kâ-kî-ohci-nipahiwak 2001."
+      },
+      "divas": {
+        "title": "Divas Boulanger, 24",
+        "location": "Ota: Berens River First Nation",
+        "description": "Kî-nipahiwak pîhtokêhk Portage la Prairie 2004."
+      },
+      "lorna": {
+        "title": "Lorna Blacksmith, 18",
+        "location": "Ota: Pimicikamak (Cross Lake First Nation)",
+        "description": "Kî-miyo-pimâtisiwak kîskwêhtênâhk Winnipeg êkota kî-nipahiwak 2011."
+      },
+      "tina": {
+        "title": "Tina Fontaine, 15",
+        "location": "Ota: Sagkeeng First Nation",
+        "description": "Kî-nipahiwak pîhtokêhk Winnipeg 2014."
+      },
+      "phoenix": {
+        "title": "Phoenix Sinclair, 5",
+        "location": "Ota: Ochekiwi Sipi (Fisher River Cree Nation)",
+        "description": "Kî-nipahiwak pîhtokêhk Fisher River 2005."
+      }
+    }
+  },
+  "nav": {
+    "home": "Waskahikan",
+    "about": "Tansi",
+    "stories": "MMIWG2S+ Âcimowina"
+  },
+  "search": {
+    "placeholder": "Mîna"
+  }
+}

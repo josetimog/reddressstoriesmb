@@ -1,6 +1,7 @@
 //var zeroDist = 59959.436;
 // var themeColor = "#a8281f";
-import { locations } from "./locations.js";
+import { getLocations } from "./locations.js";
+const locations = getLocations();
 
 const allLayers = [
   "blackout-layer",
@@ -426,7 +427,7 @@ var config = {
             southern shore of Clearwater Lake approximately 30 km northeast of The Pas.",
       location: {
         center: locations.thePasClearWater.center,
-        zoom: 10,
+        zoom: locations.thePasClearWater.zoom,
         pitch: 0,
         bearing: 0,
         // flyTo additional controls-
@@ -1156,7 +1157,7 @@ var config = {
     that Lorna was in Calgary, Red Deer, or Lethbridge. They did not find her.",
       location: {
         center: locations.prairies.center,
-        zoom: locations.manitoba.zoom,
+        zoom: locations.prairies.zoom,
         pitch: 0,
         bearing: 0,
         // flyTo additional controls-
@@ -1939,136 +1940,136 @@ var config = {
       }),
       showMarkers: true,
     },
-    // {
-    //   id: "priorities",
-    //   alignment: "center",
-    //   hidden: false,
-    //   title: "Priorities from Stories",
-    //   description:
-    //     "The stories of Betty, Jessica, Divas, Lorna, Tina and Phoenix highlight a number of themes, barriers, or unmet priorities \
-    //           that directly contributed to their deaths.",
-    //   topics: [
-    //     {
-    //       id: "access-to-education",
-    //       topic: "Access to Education",
-    //       image: "/assets/priorities/education.png",
-    //       text: "Betty was required to leave her home community to further her education. Had she had equal access to educational \
-    //         opportunities within her home community, she may still have been alive today.",
-    //     },
-    //     {
-    //       id: "access-to-social-and-support-services",
-    //       topic: "Access to Social and Support Services",
-    //       image: "/assets/priorities/resources.png",
-    //       text: "Jessica, Tina, and Lorna all lacked access to the services they needed, both while they were in Winnipeg and to \
-    //         varying degrees when they were within their home communities.",
-    //     },
-    //     {
-    //       id: "justice-system",
-    //       topic: "Justice System",
-    //       image: "/assets/priorities/justice.png",
-    //       text: "The justice system affected the lives of Betty, Jessica, Divas, Tina, and Lorna to varying degrees, both before \
-    //       and after their deaths.<br><br>Many reports, inquiries, and theses have provided evaluations, critiques, and recommendations concerning the justice system. \
-    //           While some progress has been made, a number of these recommendations remain to be implemented.<br><br>According to \
-    //           Statistics Canada data from 2021, Indigenous people are twice as likely as non-Indigenous people to have little or no confidence \
-    //           in their local police service.",
-    //     },
-    //     {
-    //       id: "racism",
-    //       topic: "Racism",
-    //       image: "/assets/priorities/racism.png",
-    //       text: "Each of these women and girls experienced overt, casual, and systemic racism throughout their short lives. \
-    //       <br><br>The AJI stated that ‘Racism is a particularly insidious and vicious form of discrimination because it stems from the mistaken \
-    //           belief in the superiority of one race of people over another.’",
-    //     },
-    //     {
-    //       id: "homophobia-and-transphobia",
-    //       topic: "Homophobia and Transphobia",
-    //       image: "/assets/priorities/2slgbtqqia+.png",
-    //       text: "These terms are used to describe hatred, fear, negative beliefs about, or discrimination toward 2SLGBTQQIA+ individuals.<br><br>\
-    //           Trans Indigenous women, Two-Spirit relatives, and Indigenous peoples who identify as LGBTQQIA+ are more likely to experience violence \
-    //           than their non-Indigenous counterparts. Divas was one among many of these women.<br><br>Over 80% of Indigenous people who identify as \
-    //           2SLGBTQQIA+ have experienced sexual or physical assault since the age of 15.",
-    //     },
-    //     {
-    //       id: "human-trafficking-sex-work-and-violence",
-    //       topic: "Human Trafficking, Survival Sex Industry, and Violence",
-    //       image: "/assets/priorities/sex.png",
-    //       text: "The United Nations Commission on the Status of Women states that the issues of sex work, sexual exploitation, and trafficking are \
-    //         complex issues which have significant legal, social, and health consequences. Because of this complexity, it is important to not \
-    //         conflate the three issues, as each needs to be considered within its own right. Sex work cannot be considered the same as trafficking \
-    //         or sexual exploitation, which are unequivocally human rights abuses and crimes (UN Women, 2014).<br><br>While we acknowledge these \
-    //         complexities as truth, we also acknowledge that the stories shared within this project encompass a range of experiences. Jessica experienced \
-    //         child sexual exploitation and trafficking. Divas was exploited through the survival sex industry.<br><br>Human trafficking involves the \
-    //         recruitment, transportation, harbouring, and/or exercising control, direction, or influence over the movements of a person in order to exploit \
-    //         them, typically through sexual exploitation or forced labour. It is often described as a modern form of slavery (Department of Justice Canada, 2021). \
-    //         <br><br>The province estimates 400 children and youth are trafficked each year in the visible sex trade in Manitoba; however, the actual \
-    //         numbers are expected to be much higher.<br><br>The Final Report highlighted that poverty and insecure housing increase the risk of subsistence \
-    //         sex work and sexual exploitation. Under Canadian law, it is legal to sell sexual services but illegal to buy them.",
-    //     },
-    //     {
-    //       id: "intergenerational-experiences",
-    //       topic: "Intergenerational Experiences and Intimate Partner Violence",
-    //       image: "/assets/priorities/intergenerational.png",
-    //       text: "The MMIWG National Inquiry Final Report states that intergenerational and multigenerational trauma are directly connected to interpersonal \
-    //         violence and self-harm that ultimately places Indigenous women, girls, and 2SLGBTQQIA+ people in danger. Intergenerational and \
-    //         multigenerational trauma can negatively impact every aspect of an Indigenous person's life and well-being. Unresolved trauma is a root cause \
-    //         of high rates of chronic health problems, interpersonal violence, and substance abuse. Trauma flows through generations and contributes \
-    //         directly to the decreased safety, security, and violence experienced by Indigenous women, girls, and 2SLGBTQQIA+ people, and ultimately \
-    //         to the disproportionate rates of their going missing and/or being murdered.<br><br>Intimate partner violence is one of the many forms of \
-    //         intergenerational trauma experienced by Indigenous women, girls, and 2SLGBTQQIA+ relatives.<br><br>Each of the stories highlighted here \
-    //         featured one or both of these experiences.",
-    //     },
-    //     {
-    //       id: "community-and-culture",
-    //       topic: "Connections to Community and Culture ",
-    //       image: "/assets/priorities/community.png",
-    //       text: "The Final Report tells us that the loss of culture contributes to, or is experienced as, a form of trauma that extends across generations. \
-    //         Stories of cultural loss — whether from residental and day schools, the Sixties Scoop, modern child apprehensions, mass relocation, or cultural \
-    //         erasure — were central across testimonies provided during the National Inquiry.<br><br>Lorna's connection to her community is often \
-    //         spoken about by her family and loved ones as an incredibly positive force in her short life. A similar sentiment is expressed regarding Tina's \
-    //         time living with her grandparents. Despite this, both girls' families experienced the same historical loss of connections experienced by \
-    //         Indigenous peoples across Canada.<br><br>Betty, Jessica, and Divas were also deeply affected by the disconnection forced by colonization.",
-    //     },
-    //     {
-    //       id: "media-portrayal",
-    //       topic: "Portrayal by Media",
-    //       image: "/assets/priorities/media.png",
-    //       text: "Media reports often perpetuate negative stereotypes of Indigenous women, girls, and 2SLGBTQQIA+ people as sex workers, \
-    //           criminals, or engaging in “high-risk” lifestyles. This type of portrayal perpetuates views that Indigenous women, girls, and \
-    //           2SLGBTQQIA+ people are “less than” non-Indigenous people. <br><br>Additionally, Indigenous women, girls, and 2SLGBTQQIA+ people \
-    //           tend to receive disproportionately less media coverage than non-Indigenous people, which contributes to the Canadian public's \
-    //           apathy toward this crisis.<br><br>Lorna, Jessica, Tina, and Divas were each subjected to negative stereotypes and inaccurate \
-    //           representation. This causes significant harm to their families and loved ones.",
-    //     },
-    //     {
-    //       id: "child-welfare-services",
-    //       topic: "Child Welfare Services",
-    //       image: "/assets/priorities/child welfare.png",
-    //       text: "As of 2021, child welfare or police services were roughly three times more likely to hear reports of violence experienced \
-    //           by Indigenous children (16%) compared to non-Indigenous children (5%).<br><br>Indigenous children over the age of 15 were nearly \
-    //           10 times more likely to have been under the care of the province. More than one-third of the children who experienced sexual or \
-    //           physical abuse while in care during their childhood were Indigenous. Violence during childhood is closely linked to the risk of \
-    //           violent victimization in adulthood (Statistics Canada).<br><br>As of the 2022 National Action Plan Progress Report, there remain few services for \
-    //           youth who age out of care. They often lack access to accommodations or other supports, and many lose connections to their communities \
-    //           and families, often ending up homeless.<br><br> Tina, Jessica, and Lorna represent three of hundreds of Indigenous children within \
-    //           the child welfare system.",
-    //     },
-    //   ],
-    //   location: {
-    //     center: locations.manitoba.center,
-    //     zoom: 13,
-    //     pitch: 0,
-    //     bearing: 0,
-    //     speed: 0.7, // make the flying slow
-    //     curve: 1, // change the speed at which it zooms out
-    //   },
-    //   mapAnimation: "flyTo",
-    //   rotateAnimation: false,
-    //   callback: "",
-    //   onChapterEnter: generateLayerVisibility({
-    //     "blackout-layer": "visible",
-    //   }),
-    // },
+    {
+      id: "priorities",
+      alignment: "center",
+      hidden: false,
+      title: "Priorities from Stories",
+      description:
+        "The stories of Betty, Jessica, Divas, Lorna, Tina and Phoenix highlight a number of themes, barriers, or unmet priorities \
+              that directly contributed to their deaths.",
+      topics: [
+        {
+          id: "access-to-education",
+          topic: "Access to Education",
+          image: "/reddressstoriesmb/assets/priorities/education.png",
+          text: "Betty was required to leave her home community to further her education. Had she had equal access to educational \
+            opportunities within her home community, she may still have been alive today.",
+        },
+        {
+          id: "access-to-social-and-support-services",
+          topic: "Access to Social and Support Services",
+          image: "/reddressstoriesmb/assets/priorities/resources.png",
+          text: "Jessica, Tina, and Lorna all lacked access to the services they needed, both while they were in Winnipeg and to \
+            varying degrees when they were within their home communities.",
+        },
+        {
+          id: "justice-system",
+          topic: "Justice System",
+          image: "/reddressstoriesmb/assets/priorities/justice.png",
+          text: "The justice system affected the lives of Betty, Jessica, Divas, Tina, and Lorna to varying degrees, both before \
+          and after their deaths.<br><br>Many reports, inquiries, and theses have provided evaluations, critiques, and recommendations concerning the justice system. \
+              While some progress has been made, a number of these recommendations remain to be implemented.<br><br>According to \
+              Statistics Canada data from 2021, Indigenous people are twice as likely as non-Indigenous people to have little or no confidence \
+              in their local police service.",
+        },
+        {
+          id: "racism",
+          topic: "Racism",
+          image: "/reddressstoriesmb/assets/priorities/racism.png",
+          text: "Each of these women and girls experienced overt, casual, and systemic racism throughout their short lives. \
+          <br><br>The AJI stated that ‘Racism is a particularly insidious and vicious form of discrimination because it stems from the mistaken \
+              belief in the superiority of one race of people over another.’",
+        },
+        {
+          id: "homophobia-and-transphobia",
+          topic: "Homophobia and Transphobia",
+          image: "/reddressstoriesmb/assets/priorities/2slgbtqqia+.png",
+          text: "These terms are used to describe hatred, fear, negative beliefs about, or discrimination toward 2SLGBTQQIA+ individuals.<br><br>\
+              Trans Indigenous women, Two-Spirit relatives, and Indigenous peoples who identify as LGBTQQIA+ are more likely to experience violence \
+              than their non-Indigenous counterparts. Divas was one among many of these women.<br><br>Over 80% of Indigenous people who identify as \
+              2SLGBTQQIA+ have experienced sexual or physical assault since the age of 15.",
+        },
+        {
+          id: "human-trafficking-sex-work-and-violence",
+          topic: "Human Trafficking, Survival Sex Industry, and Violence",
+          image: "/reddressstoriesmb/assets/priorities/sex.png",
+          text: "The United Nations Commission on the Status of Women states that the issues of sex work, sexual exploitation, and trafficking are \
+            complex issues which have significant legal, social, and health consequences. Because of this complexity, it is important to not \
+            conflate the three issues, as each needs to be considered within its own right. Sex work cannot be considered the same as trafficking \
+            or sexual exploitation, which are unequivocally human rights abuses and crimes (UN Women, 2014).<br><br>While we acknowledge these \
+            complexities as truth, we also acknowledge that the stories shared within this project encompass a range of experiences. Jessica experienced \
+            child sexual exploitation and trafficking. Divas was exploited through the survival sex industry.<br><br>Human trafficking involves the \
+            recruitment, transportation, harbouring, and/or exercising control, direction, or influence over the movements of a person in order to exploit \
+            them, typically through sexual exploitation or forced labour. It is often described as a modern form of slavery (Department of Justice Canada, 2021). \
+            <br><br>The province estimates 400 children and youth are trafficked each year in the visible sex trade in Manitoba; however, the actual \
+            numbers are expected to be much higher.<br><br>The Final Report highlighted that poverty and insecure housing increase the risk of subsistence \
+            sex work and sexual exploitation. Under Canadian law, it is legal to sell sexual services but illegal to buy them.",
+        },
+        {
+          id: "intergenerational-experiences",
+          topic: "Intergenerational Experiences and Intimate Partner Violence",
+          image: "/reddressstoriesmb/assets/priorities/intergenerational.png",
+          text: "The MMIWG National Inquiry Final Report states that intergenerational and multigenerational trauma are directly connected to interpersonal \
+            violence and self-harm that ultimately places Indigenous women, girls, and 2SLGBTQQIA+ people in danger. Intergenerational and \
+            multigenerational trauma can negatively impact every aspect of an Indigenous person's life and well-being. Unresolved trauma is a root cause \
+            of high rates of chronic health problems, interpersonal violence, and substance abuse. Trauma flows through generations and contributes \
+            directly to the decreased safety, security, and violence experienced by Indigenous women, girls, and 2SLGBTQQIA+ people, and ultimately \
+            to the disproportionate rates of their going missing and/or being murdered.<br><br>Intimate partner violence is one of the many forms of \
+            intergenerational trauma experienced by Indigenous women, girls, and 2SLGBTQQIA+ relatives.<br><br>Each of the stories highlighted here \
+            featured one or both of these experiences.",
+        },
+        {
+          id: "community-and-culture",
+          topic: "Connections to Community and Culture ",
+          image: "/reddressstoriesmb/assets/priorities/community.png",
+          text: "The Final Report tells us that the loss of culture contributes to, or is experienced as, a form of trauma that extends across generations. \
+            Stories of cultural loss — whether from residental and day schools, the Sixties Scoop, modern child apprehensions, mass relocation, or cultural \
+            erasure — were central across testimonies provided during the National Inquiry.<br><br>Lorna's connection to her community is often \
+            spoken about by her family and loved ones as an incredibly positive force in her short life. A similar sentiment is expressed regarding Tina's \
+            time living with her grandparents. Despite this, both girls' families experienced the same historical loss of connections experienced by \
+            Indigenous peoples across Canada.<br><br>Betty, Jessica, and Divas were also deeply affected by the disconnection forced by colonization.",
+        },
+        {
+          id: "media-portrayal",
+          topic: "Portrayal by Media",
+          image: "/reddressstoriesmb/assets/priorities/media.png",
+          text: "Media reports often perpetuate negative stereotypes of Indigenous women, girls, and 2SLGBTQQIA+ people as sex workers, \
+              criminals, or engaging in “high-risk” lifestyles. This type of portrayal perpetuates views that Indigenous women, girls, and \
+              2SLGBTQQIA+ people are “less than” non-Indigenous people. <br><br>Additionally, Indigenous women, girls, and 2SLGBTQQIA+ people \
+              tend to receive disproportionately less media coverage than non-Indigenous people, which contributes to the Canadian public's \
+              apathy toward this crisis.<br><br>Lorna, Jessica, Tina, and Divas were each subjected to negative stereotypes and inaccurate \
+              representation. This causes significant harm to their families and loved ones.",
+        },
+        {
+          id: "child-welfare-services",
+          topic: "Child Welfare Services",
+          image: "/reddressstoriesmb/assets/priorities/child welfare.png",
+          text: "As of 2021, child welfare or police services were roughly three times more likely to hear reports of violence experienced \
+              by Indigenous children (16%) compared to non-Indigenous children (5%).<br><br>Indigenous children over the age of 15 were nearly \
+              10 times more likely to have been under the care of the province. More than one-third of the children who experienced sexual or \
+              physical abuse while in care during their childhood were Indigenous. Violence during childhood is closely linked to the risk of \
+              violent victimization in adulthood (Statistics Canada).<br><br>As of the 2022 National Action Plan Progress Report, there remain few services for \
+              youth who age out of care. They often lack access to accommodations or other supports, and many lose connections to their communities \
+              and families, often ending up homeless.<br><br> Tina, Jessica, and Lorna represent three of hundreds of Indigenous children within \
+              the child welfare system.",
+        },
+      ],
+      location: {
+        center: locations.manitoba.center,
+        zoom: locations.manitoba.zoom,
+        pitch: 0,
+        bearing: 0,
+        speed: 0.7, // make the flying slow
+        curve: 1, // change the speed at which it zooms out
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: generateLayerVisibility({
+        "blackout-layer": "visible",
+      }),
+    },
   ],
 };
 

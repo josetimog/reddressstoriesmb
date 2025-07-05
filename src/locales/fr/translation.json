@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "Disparues et assassinées",
+    "subtitle": "Femmes, filles et personnes bispirituelles autochtones",
+    "tagline": "Honorer leurs vies. Se souvenir de leurs noms.",
+    "cta": "Explorer les histoires"
+  },
+  "gallery": {
+    "heading": "Histoires mises en lumière",
+    "intro": "En partageant les histoires de six personnes, nous mettons en lumière plusieurs thèmes et obstacles vécus par chacune d'elles et par beaucoup d'autres touchées par cette crise nationale.",
+    "permissionNote": "Giganawenimaanaanig a reçu la permission des familles des personnes mises en lumière dans ces histoires.",
+    "cards": {
+      "helen": {
+        "title": "Helen Betty Osborne, 19 ans",
+        "location": "Originaire de : Norway House",
+        "description": "Retrouvée assassinée près de The Pas en 1971."
+      },
+      "jessica": {
+        "title": "Jessica Michaels, 17 ans",
+        "location": "Originaire de : Chesterfield Inlet, Nunavut",
+        "description": "Sa famille soupçonne qu’il y a eu acte criminel lors de sa mort en 2001."
+      },
+      "divas": {
+        "title": "Divas Boulanger, 24 ans",
+        "location": "Originaire de : Berens River First Nation",
+        "description": "Retrouvée assassinée près de Portage la Prairie en 2004."
+      },
+      "lorna": {
+        "title": "Lorna Blacksmith, 18 ans",
+        "location": "Originaire de : Pimicikamak (Cross Lake First Nation)",
+        "description": "Vivait à Winnipeg au moment de son meurtre en 2011."
+      },
+      "tina": {
+        "title": "Tina Fontaine, 15 ans",
+        "location": "Originaire de : Sagkeeng First Nation",
+        "description": "Retrouvée assassinée à Winnipeg en 2014."
+      },
+      "phoenix": {
+        "title": "Phoenix Sinclair, 5 ans",
+        "location": "Originaire de : Ochekiwi Sipi (Fisher River Cree Nation)",
+        "description": "Retrouvée assassinée à Fisher River Cree Nation en 2005."
+      }
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "stories": "Histoires MMIWG2S+"
+  },
+  "search": {
+    "placeholder": "Rechercher"
+  }
+}

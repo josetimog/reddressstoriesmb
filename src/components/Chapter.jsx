@@ -1,14 +1,10 @@
 const Chapter = ({ chapter, isActive }) => {
-  // console.log(chapter);
   const alignmentClass = {
     left: "lefty",
     center: "centered",
     right: "righty",
     full: "fully",
   }[chapter.alignment || "center"];
-
-  // const isHomeChapter = chapter.id.toLowerCase().includes("home");
-  // const isPrioritiesChapter = chapter.id.toLowerCase().includes("priorities");
 
   return (
     <div
@@ -20,7 +16,7 @@ const Chapter = ({ chapter, isActive }) => {
       <div
         style={{
           backgroundColor: "#f3ece4",
-          opacity: 0.9,
+          opacity: 0.95,
         }}
       >
         {chapter.title && (

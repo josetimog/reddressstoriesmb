@@ -130,7 +130,7 @@
 }
 
 .step.active {
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .step div {
@@ -152,6 +152,12 @@
   .fully {
     width: 90vw;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .step div {
+    padding: 20px 20px; /* Reduce horizontal padding for small screens */
   }
 }
 

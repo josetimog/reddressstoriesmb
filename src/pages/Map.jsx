@@ -4,17 +4,10 @@ import VictimList from "../components/VictimList";
 import FilterModal from "../components/FilterModal";
 import "./Map.css";
 import Header from "../components/Header.jsx";
-import Footer from "../components/Footer.jsx";
 import PauseButton from "../components/PauseButton.jsx";
 import SlideShow from "../components/SlideShow.jsx";
 
-import {
-  Button,
-  IconButton,
-  Tooltip,
-  useMediaQuery,
-  useTheme,
-} from "@mui/material";
+import { Button, Tooltip, useMediaQuery, useTheme } from "@mui/material";
 import MapIcon from "@mui/icons-material/Map";
 import ListIcon from "@mui/icons-material/List";
 import FilterListIcon from "@mui/icons-material/FilterList";
@@ -45,7 +38,7 @@ function Map() {
         isVisible={showSlideShow}
         onClose={() => setShowSlideShow(false)}
       />
-      <PauseButton onOpenSlideShow={() => setShowSlideShow(true)} />
+      {/* <PauseButton onOpenSlideShow={() => setShowSlideShow(true)} /> */}
       <div id="map-section" className="map-layout">
         {/* Desktop Sidebar */}
         {!isMobile && (
@@ -68,12 +61,17 @@ function Map() {
             setFilteredCount={setFilteredCount}
           />
 
+          <PauseButton
+            className="pause-button"
+            onOpenSlideShow={() => setShowSlideShow(true)}
+          />
+
           {/* Filter Button */}
           <div className="filter-button-container">
             <Button
               variant="contained"
               onClick={() => setShowFilters(true)}
-              startIcon={<FilterListIcon />} // ✅ Icon on the left
+              startIcon={<FilterListIcon />}
               sx={{
                 color: "#000",
                 backgroundColor: "#e1e4e8",
@@ -119,16 +117,24 @@ function Map() {
           {isMobile && (
             <div className="mobile-toggle-button">
               <Tooltip title={isMobileListVisible ? "Show Map" : "Show List"}>
-                <IconButton
+                <Button
                   onClick={() => setIsMobileListVisible(!isMobileListVisible)}
+                  startIcon={isMobileListVisible ? <MapIcon /> : <ListIcon />}
                   sx={{
                     backgroundColor: "#a8281f",
                     color: "#fff",
                     "&:hover": { backgroundColor: "#8e1f18" },
+                    fontFamily: "Lato, sans-serif",
+                    textTransform: "none",
+                    fontSize: "1rem",
+                    padding: "10px 20px",
+                    borderRadius: "999px",
+                    minWidth: "100px",
                   }}
+                  variant="contained"
                 >
-                  {isMobileListVisible ? <MapIcon /> : <ListIcon />}
-                </IconButton>
+                  {isMobileListVisible ? "Map" : "Profiles"}
+                </Button>
               </Tooltip>
             </div>
           )}
@@ -156,7 +162,6 @@ function Map() {
           />
         )}
       </div>
-      <Footer />
     </>
   );
 }

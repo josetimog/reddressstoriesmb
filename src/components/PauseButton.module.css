@@ -1,7 +1,7 @@
 .pauseButton {
   position: fixed;
   bottom: 1.5rem;
-  right: 1.5rem;
+  left: 1.5rem;
   z-index: 1000;
   border-radius: 60px;
   padding: 0;
@@ -9,11 +9,12 @@
   border: none;
   overflow: visible;
   cursor: pointer;
+  opacity: 0.5;
 }
 
 /* Icon styling */
 .pauseButton img {
-  width: 60px;
+  width: 40px;
   border-radius: 60px;
   transition: transform 0.2s ease, filter 0.2s ease;
 }
@@ -22,6 +23,7 @@
   transform: scale(1.05);
   filter: brightness(1.1);
   transition: transform 0.2s ease, filter 0.2s ease;
+  opacity: 0.8;
 }
 
 /* Caption styling (tooltip) */

@@ -332,7 +332,7 @@ function FilterModal({ filters, setFilters, onClose, filteredCount }) {
               borderRadius: 10,
             }}
           >
-            Clear
+            Reset
           </Button>
           <Button
             variant="contained"

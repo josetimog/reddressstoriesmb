@@ -27,20 +27,47 @@ const HighlightedStoryMap = () => {
       pitch: config.chapters[0].location.pitch,
       interactive: true,
       projection: config.projection,
-      doubleClickZoom: true,
-      scrollZoom: false,
-      dragRotate: false,
+      // doubleClickZoom: true,
+      // scrollZoom: false,
+      // dragRotate: false,
       // Default padding ( 0 on mobile)
       padding: getMapPadding(),
     });
 
+    map.scrollZoom.disable();
+    map.boxZoom.disable();
+    map.dragRotate.disable();
+    map.dragPan.disable();
+    map.keyboard.disable();
+    map.doubleClickZoom.disable();
+    map.touchZoomRotate.disable();
+
     mapRef.current = map; // Store map here
+
+    // const handleResize = () => {
+    //   if (mapRef.current) {
+    //     mapRef.current.setPadding(getMapPadding());
+    //   }
+    // };
 
     const handleResize = () => {
       if (mapRef.current) {
-        mapRef.current.setPadding(getMapPadding());
+        const padding = getMapPadding();
+        mapRef.current.setPadding(padding);
+
+        // Re-center map to apply padding visually
+        const center = config.chapters[0].location.center;
+        const zoom = config.chapters[0].location.zoom;
+
+        mapRef.current.easeTo({
+          center,
+          zoom,
+          padding,
+          duration: 0, // instant
+        });
       }
     };
+
     window.addEventListener("resize", handleResize);
 
     map.on("load", () => {
@@ -98,7 +125,18 @@ const HighlightedStoryMap = () => {
         }
 
         map.setLayoutProperty(layerName, "visibility", "none");
+
+        // mapRef.current.on("click", layerName, (e) => {
+        //   const feature = e.features[0];
+        //   showPopup(feature);
+        // });
       });
+
+      // mapRef.current.on("click", layerName, (e) => {
+      //   const feature = e.features[0];
+      //   showPopup(feature);
+      // });
+
       setupScrollama(map);
     });
 

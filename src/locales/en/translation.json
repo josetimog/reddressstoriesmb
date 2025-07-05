@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "Missing & Murdered",
+    "subtitle": "Indigenous Women, Girls & Two-Spirited People",
+    "tagline": "Honouring their lives. Remembering their names.",
+    "cta": "Explore Stories"
+  },
+  "gallery": {
+    "heading": "Highlighted Stories",
+    "intro": "Through sharing the stories of six individuals, we highlight a number of themes and barriers experienced by each of them and by many affected by this national crisis.",
+    "permissionNote": "Giganawenimaanaanig received permission from families of individuals highlighted in these stories.",
+    "cards": {
+      "helen": {
+        "title": "Helen Betty Osborne, 19",
+        "location": "From: Norway House",
+        "description": "Found murdered near The Pas in 1971."
+      },
+      "jessica": {
+        "title": "Jessica Michaels, 17",
+        "location": "From: Chesterfield Inlet, Nunavut",
+        "description": "Her family suspects foul play was involved in her death in 2001."
+      },
+      "divas": {
+        "title": "Divas Boulanger, 24",
+        "location": "From: Berens River First Nation",
+        "description": "Found murdered near Portage la Prairie in 2004."
+      },
+      "lorna": {
+        "title": "Lorna Blacksmith, 18",
+        "location": "From: Pimicikamak (Cross Lake First Nation)",
+        "description": "Lived in Winnipeg at the time of her murder in 2011."
+      },
+      "tina": {
+        "title": "Tina Fontaine, 15",
+        "location": "From: Sagkeeng First Nation",
+        "description": "Found murdered in Winnipeg in 2014."
+      },
+      "phoenix": {
+        "title": "Phoenix Sinclair, 5",
+        "location": "From: Ochekiwi Sipi (Fisher River Cree Nation)",
+        "description": "Found murdered in Fisher River Cree Nation in 2005."
+      }
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "stories": "MMIWG2S+ Stories"
+  },
+  "search": {
+    "placeholder": "Search"
+  }
+}

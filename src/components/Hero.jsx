@@ -96,11 +96,13 @@ import {
   useTheme,
   useMediaQuery,
 } from "@mui/material";
-import { Link as RouterLink } from "react-router-dom"; // ✅ Import this
+import { Link as RouterLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function Hero() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const { t } = useTranslation();
 
   return (
     <Box
@@ -130,7 +132,8 @@ function Hero() {
           mb: 1,
         }}
       >
-        Missing & Murdered
+        {/* Missing & Murdered */}
+        {t("hero.title")}
       </Typography>
       <Typography
         variant={isMobile ? "h6" : "h5"}
@@ -142,7 +145,8 @@ function Hero() {
           mb: 3,
         }}
       >
-        Indigenous Women, Girls & Two-Spirited People
+        {/* Indigenous Women, Girls & Two-Spirited People */}
+        {t("hero.subtitle")}
       </Typography>
       <Typography
         variant="subtitle1"
@@ -154,7 +158,8 @@ function Hero() {
           fontStyle: "italic",
         }}
       >
-        Honouring their lives. Remembering their names.
+        {/* Honouring their lives. Remembering their names. */}
+        {t("hero.tagline")}
       </Typography>
       <Button
         variant="contained"
@@ -169,7 +174,8 @@ function Hero() {
           fontFamily: "Lato, sans-serif",
         }}
       >
-        Explore Stories
+        {/* Explore Stories */}
+        {t("hero.cta")}
       </Button>
     </Box>
   );

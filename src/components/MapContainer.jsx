@@ -33,6 +33,10 @@ function MapContainer({ filters, sort, setFilteredResults, setFilteredCount }) {
       style: "mapbox://styles/dami-akinniyi/clhca5xln021v01qn83369r90",
     });
 
+    // Disable rotation
+    mapRef.current.dragRotate.disable();
+    mapRef.current.touchZoomRotate.disableRotation();
+
     mapRef.current.addControl(
       new mapboxgl.NavigationControl({
         showCompass: false,

@@ -6,12 +6,12 @@
   font-size: 1rem;
 }
 
-.slideshow-overlay {
+/* .slideshow-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   background: rgba(0, 0, 0, 0.95);
   z-index: 10000;
   display: flex;
@@ -22,7 +22,7 @@
 .carousel-item img {
   max-height: 100vh;
   object-fit: contain;
-}
+} */
 
 @keyframes fadeIn {
   from {

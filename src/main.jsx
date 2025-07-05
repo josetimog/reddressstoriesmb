@@ -5,6 +5,7 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Map from "./pages/Map.jsx";
 import Story from "./pages/Story.jsx";
+import "./i18n";
 
 const router = createBrowserRouter(
   [
